@@ -1,0 +1,479 @@
+.section-revolution-slider{
+	padding-bottom: 5px;
+	overflow:hidden;
+	img{
+		max-width:none !important;
+		height:auto !important;
+		
+	}
+	
+	.content{
+		max-width:100% !important;
+		.content-pad{
+			padding:0px;
+		}
+	}
+
+	.tp-simpleresponsive{
+		.user-select(@select);
+		.caption{
+			.opacity(0);
+			position:absolute;
+			visibility:hidden;
+		}
+		
+		img{
+			max-width:none !important;
+		}
+
+		a{
+			text-decoration:none;
+		}
+		ul{
+			list-style:none;
+			padding:0;
+			margin:0;
+		}
+
+
+	}
+
+	.tp-bannershadow  {
+		.user-select(@select);
+		position:absolute;
+		margin-left:auto;
+		margin-right:auto;
+		&.shadow1{
+			background:url(@{plChildRoot}/sections/revolution-slider/assets/shadow1.png) no-repeat; 
+			background-size:100%; 
+			bottom:-30px;
+			height:30px; 
+			width:890px; 
+		}
+		&.shadow2{
+			background:url(@{plChildRoot}/sections/revolution-slider/assets/shadow2.png) no-repeat; 
+			background-size:100%; 
+			bottom:-60px;
+			height:60px;
+			width:890px; 
+		}
+		&.shadow3{
+			background:url(@{plChildRoot}/sections/revolution-slider/assets/shadow3.png) no-repeat; 
+			background-size:100%; 
+			bottom:-60px;
+			height:60px;
+			width:890px; 
+		}
+	}
+
+	.caption{
+
+		border-style: none;
+		border-width: 0px;
+		font-size: 16px;
+		letter-spacing: -1.5px;
+		margin: 0px;
+		padding: 0px 4px;
+		position: absolute;
+		text-shadow: none;
+
+		&.big_white{
+			color: #fff;
+			font-size: 36px;
+			line-height: 36px;
+			font-weight: 700;
+			text-shadow:0 0 2px black;
+			
+		}
+
+		&.big_orange{
+			color: #ff7302;
+			font-size: 36px;
+			line-height: 36px;
+			font-weight: 700;
+			text-shadow:0 0 2px black;
+		}
+
+		&.big_black{
+			color: #000;
+			font-size: 36px;
+			line-height: 36px;
+			font-weight: 700;
+			text-shadow:0 0 2px black;
+		}
+		&.medium_grey{
+			color: #fff;
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 20px;
+			text-shadow:0 0 2px black;
+		}
+		&.small_text{
+			color: #fff;
+			white-space:nowrap;
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+			font-weight: 700;
+			font-size: 14px;
+			line-height: 20px;
+			text-shadow:0 0 2px black;
+		}
+		&.medium_white{
+			color: #fff;
+			white-space:nowrap;
+			text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 20px;
+			text-shadow:0 0 2px black;
+		}
+		&.large_text{
+			font-weight: 700;
+			font-size: 40px;
+			line-height: 40px;
+			color: #fff;
+			text-shadow:0 0 2px black;
+		}
+
+		&.very_large_text{
+			font-weight: 700;
+			font-size: 60px;
+			line-height: 60px;
+			text-shadow:0 0 2px black;
+			color: #fff;
+		}
+		&.very_big_white{
+			font-weight: 700;
+			font-size: 60px;
+			line-height: 60px;
+			color: #fff;
+			text-shadow:0 0 2px black;
+		}
+		&.very_big_black{
+			color: #000;
+			text-shadow: none;
+			font-weight: 700;
+			font-size: 60px;
+			line-height: 60px;
+			text-shadow:0 0 2px black;
+		}
+
+		&.boxshadow{
+			.box-shadow(0px 0px 20px rgba(0, 0, 0, 0.5))
+		}
+		&.black{
+			color: #000;
+			text-shadow: none;
+		}
+		&.noshadow{
+			text-shadow: none;
+		}
+		&.slidelink{
+			a{
+				div{
+					width:10000px; height:10000px;
+				}
+			}
+		}
+
+		&.fullscreenvideo{
+			height:100%;
+			left:0px; 
+			position:absolute;
+			top:0px; 
+			width:100%;
+
+			iframe{
+				height:100% !important;
+				width:100% !important; 
+			}
+		}
+
+		a{
+			color: #ff7302; 
+			text-shadow: none;	
+			.transition(all 0.2s ease-out);
+			&:hover{
+				color: #ffa902;
+			}
+		}
+	}
+
+	.tp-bullets{
+		bottom:10px;
+		position:absolute; 
+		z-index:100; 
+
+		&.simplebullets{
+			bottom:10px;
+			&.navbar{
+				.border-radius(5px);
+				bottom:-20px; 
+				height:35px; 
+				margin-top:-17px;
+				padding:0px 0px; 
+				background: none;
+				#translucent > .background(white, .5);
+			}
+
+			&.square{
+				.bullet{
+					background:url(@{plChildRoot}/sections/revolution-slider/assets/bullets2.png) no-repeat bottom left;	
+					cursor:pointer; 
+					float:left; 
+					margin-right:0px; 
+					margin-top:-10px;
+					position:relative;	
+					width:19px;	height:19px;  
+					&.last{
+						margin-right:0px;
+					}
+				}
+			}
+
+			&.navbar{
+				.bullet{
+					background:url(@{plChildRoot}/sections/revolution-slider/assets/navigdots.png) no-repeat bottom left;	
+					cursor:pointer; position:relative;	
+					float:left; 
+					height:15px;  
+					margin-left:5px !important; 
+					margin-right:5px !important;
+					margin-top:10px;
+					width:15px;	
+					&.first{
+						margin-left:20px !important;
+					}
+					&.last{
+						margin-right:20px !important;
+					}
+				}
+			}
+
+			.bullet{
+				background:url(@{plChildRoot}/sections/revolution-slider/assets/bullets.png) no-repeat bottom left;	
+				cursor:pointer; 
+				float:left; 
+				height:23px;  
+				margin-right:0px; 
+				margin-top:-12px;
+				position:relative;	
+				width:23px;
+				&.last{
+					margin-right:0px;
+				}
+				&:hover,
+				&.selected{
+					background-position:top left;
+				}
+			}
+		}
+
+		&.tp-thumbs{
+			z-index:100; 
+			position:absolute; 
+			padding:0px 2px 2px;
+			background-color:#fff;
+			width:500px;
+			height:50px;
+			.tp-mask{
+				width:500px; 
+				height:50px;
+				overflow:hidden; 
+				position:relative;
+				.tp-thumbcontainer{
+					width:5000px; 
+					position:absolute;
+				}
+			}
+
+			.bullet{
+				width:100px; 
+				height:50px;
+				cursor:pointer; 
+				overflow:hidden;
+				background:none;
+				margin:0;
+				float:left;
+				.opacity( .50 );
+				.transition(all 0.2s ease-out);
+				&:hover{
+					.opacity(1);
+				}
+			}
+		}
+	}
+
+	.tp-leftarrow,
+	.tp-rightarrow{
+		z-index:100;
+		cursor:pointer; 
+		position:relative;	
+		width:26px;	
+		height:26px;  
+		margin-right:0px; 
+		float:left; 
+		margin-top:-13px;
+		&:hover{
+			background-position:bottom left;
+		}	
+	}
+
+	.tp-leftarrow{
+		background:url(@{plChildRoot}/sections/revolution-slider/assets/arrow_left.png) no-repeat top left;
+		&.navbar{
+			z-index:100;
+			cursor:pointer; 
+			position:relative;	
+			background:url(@{plChildRoot}/sections/revolution-slider/assets/arrowleft.png) no-repeat top left;		
+			width:9px;	
+			height:16px;   
+			float:left;	
+			margin-right:-20px; 
+			margin-top:-8px;
+			&.thumbswitharrow{
+				margin-right:10px;
+			}
+			&.square{
+				z-index:100;
+				cursor:pointer; 
+				position:relative;	
+				background:url(@{plChildRoot}/sections/revolution-slider/assets/arrow_left2.png) no-repeat top left;	
+				width:12px;	height:17px;   
+				float:left;	
+				margin-right:0px; 
+				margin-top:-9px;
+			}
+			&.large{
+				z-index:100;
+				cursor:pointer; 
+				position:relative;	
+				background:url(@{plChildRoot}/sections/revolution-slider/assets/arrow_large_left.png) no-repeat top left;	
+				width:46px;	
+				height:46px;  
+				margin-left:20px; 
+				margin-top:-23px;
+				&:hover{
+					background-position:bottom left;
+				}
+			}
+		}
+	}
+
+	.tp-rightarrow{
+		background:url(@{plChildRoot}/sections/revolution-slider/assets/arrow_right.png) no-repeat top left;
+		&.navbar{
+			z-index:100;
+			cursor:pointer; 
+			position:relative;	
+			background:url(@{plChildRoot}/sections/revolution-slider/assets/arrowright.png) no-repeat top left;		
+			width:9px;	
+			height:16px;   
+			float:left;	
+			margin-right:-20px; 
+			margin-top:-8px;
+			&.thumbswitharrow{
+				margin-left:0px;
+			}
+			&.square{
+				z-index:100;
+				cursor:pointer; 
+				position:relative;	
+				background:url(@{plChildRoot}/sections/revolution-slider/assets/arrow_right2.png) no-repeat top left;	
+				width:12px;	height:17px;   
+				float:left;	
+				margin-right:0px; 
+				margin-top:-9px;
+			}
+			&.large{
+				z-index:100;
+				cursor:pointer; 
+				position:relative;	
+				background:url(@{plChildRoot}/sections/revolution-slider/assets/arrow_large_right.png) no-repeat top left;	
+				width:46px;	
+				height:46px;  
+				margin-left:-20px; 
+				margin-top:-23px;
+				&:hover{
+					background-position:bottom left;
+				}
+			}
+		}
+	}
+
+	.fullwidthbanner-container{
+		width:100% !important;
+		position:relative;
+		padding:0;
+		max-height:450px !important;
+		overflow:hidden;
+
+		.tp-thumbs{
+			padding:2px;
+		}
+	}
+
+	.tp-thumbs{
+		img{	
+			width:100%; 
+		}
+	}
+
+	.tp-bannertimer{
+		width:100%; 
+		height:10px; 
+		background:url(@{plChildRoot}/sections/revolution-slider/assets/timer.png);
+		position:absolute; 
+		z-index:200;
+		&.tp-bottom{
+			bottom:0px !important;
+			height:5px;
+		}
+	}
+
+	.noFilterClass {
+		filter:none !important;
+	}
+
+	.tp-simpleresponsive >ul >li{
+		list-stye:none;
+		position:absolute;
+		visibility:hidden;
+	}
+
+	.tp-loader{
+		background:url(@{plChildRoot}/sections/revolution-slider/assets/loader.gif) no-repeat 10px 10px; 
+		background-color:#fff;  
+		margin:-22px -22px; 
+		top:50%; 
+		left:50%; 
+		z-index:10000; 
+		position:absolute;
+		width:44px;
+		height:44px;
+		border-radius(3px);
+	}
+	.tparrows{
+		&.navbar{
+			.box-shadow(none);
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+ }
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.responsive .tp-bullets.tp-thumbs				{	width:300px !important; height:30px !important;}
+		.responsive .tp-bullets.tp-thumbs .tp-mask		{	width:300px !important; height:30px !important;}
+		.responsive .tp-bullets.tp-thumbs .bullet		{	width:60px !important;height:30px !important;}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+			.responsive .tp-bullets	{	display:none}
+			.responsive .tparrows	{	display:none;}
+}

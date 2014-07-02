@@ -1,0 +1,72 @@
+/******************************************************************************
+** LESS FOR COLLAPSER
+******************************************************************************/
+
+.section-collapser{
+
+	.block-title {
+		font-size: 14px;
+		letter-spacing: 1px;
+		margin-bottom: 20px;
+		padding: 10px;
+		text-align: center;
+		text-transform: uppercase;
+
+	    span {
+		    padding: 0 10px;
+		}
+	}
+
+	h3 {
+	    line-height: 22px;
+	    margin-bottom: 5px;
+	}
+
+	.center{
+		text-align:center;
+	}
+	.collapser-data{
+		.accordion-group {
+			background: none;
+			margin-bottom: 5px;
+			border: 0 none;
+			.border-radius(0);
+			.collapse{
+				background: #ffffff;
+			}
+
+			.collapser-heading{
+
+				padding: 0px;
+				.transition( all 0.2s ease );
+				.collapser-toggle{
+					display:block;
+					font-size:16px;
+					background-color:#fff;
+					padding:15px 0px 15px 10px;
+					.transition( all 0.2s ease );
+					color:@pl-text;
+					&:hover ,&.active{
+						background: @pl-link;
+					}
+				}
+				&:hover, &.active{
+					.collapser-toggle{
+						color: #ffffff;
+						background:@pl-link; 
+					}
+				}
+			}
+
+			.collapser-inner{
+				p{
+					padding:0 10px;
+				}
+
+			}
+		}
+	}
+
+
+
+}

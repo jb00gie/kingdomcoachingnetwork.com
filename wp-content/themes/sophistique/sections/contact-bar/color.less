@@ -1,0 +1,112 @@
+@cColor = @pl-link;
+@cCBack = @pl-base;
+@cCText = @pl-text;
+
+.section-contact-bar{
+    /**************************************************************************
+    ** Reset bottom margin on bootstrap spans
+    **************************************************************************/
+    .row > [class*="span"], .row-fluid > [class*="span"], .editor-row > [class*="span"] {
+        margin-bottom: 0px;
+    }
+
+    .cb-container{
+        margin:15px 0;
+    }
+
+    /**************************************************************************
+    ** Border on top
+    **************************************************************************/  
+    border-top: 4px solid @cColor;
+    border-bottom: 1px solid #efefef;
+    background: @cCBack;
+    color: @cCText;
+
+
+    /**************************************************************************
+    ** Main font size for the contact bar
+    **************************************************************************/
+    font-size: 0.9em;
+
+    .cb-holder{
+        position: relative;
+        min-height: 40px;
+        .icon{
+            position: absolute;
+            padding-top: 15px;
+        }
+    }
+    /**************************************************************************
+    ** Social icons menu
+    **************************************************************************/
+    .social-holder{
+        position: relative;
+    }
+    .cb-menu
+    {
+        display: table-cell;
+        text-align: right;
+        margin-top: 2px;
+        right: 0px;
+        position: absolute;
+        li{
+            list-style: none;
+            float: left;
+            width: 40px;
+            height: 38px;
+            display: block;
+            background: url( "@{plChildRoot}/sections/contact-bar/images/social-icons.png") no-repeat;
+            a{
+                display: block;
+                width: 40px;
+                height: 38px;
+            }
+
+            .transition(all 0.15s ease);
+            &:hover{.transition(all 0.15s ease);}
+
+            &.digg{&:hover{background-position:     0 -40px;};}
+            &.dribbble{background-position:         0 -81px;&:hover{background-position: 0 -120px;};}
+            &.facebook{background-position:         0 -161px;&:hover{background-position: 0 -200px;};}
+            &.flickr{background-position:           0 -241px;&:hover{background-position: 0 -280px;};}
+            &.forrst{background-position:           0 -321px;&:hover{background-position: 0 -360px;};}
+            &.googleplus{background-position:       0 -401px;&:hover{background-position: 0 -440px;};}
+            &.html5{background-position:            0 -481px;&:hover{background-position: 0 -520px;};}
+            &.lastfm{background-position:           0 -561px;&:hover{background-position: 0 -600px;};}
+            &.linkedin{background-position:         0 -641px;&:hover{background-position: 0 -680px;};}
+            &.paypal{background-position:           0 -721px;&:hover{background-position: 0 -760px;};}
+            &.picasa{background-position:           0 -801px;&:hover{background-position: 0 -840px;};}
+            &.pinterest{background-position:        0 -881px;&:hover{background-position: 0 -920px;};}
+            &.rss{background-position:              0 -961px;&:hover{background-position: 0 -1000px;};}
+            &.skype{background-position:            0 -1041px;&:hover{background-position: 0 -1080px;};}
+            &.stumbleupon{background-position:      0 -1121px;&:hover{background-position: 0 -1160px;};}
+            &.tumblr{background-position:           0 -1201px;&:hover{background-position: 0 -1240px;};}
+            &.twitter{background-position:          0 -1281px;&:hover{background-position: 0 -1320px;};}
+            &.vimeo{background-position:            0 -1361px;&:hover{background-position: 0 -1400px;};}
+            &.wordpress{background-position:        0 -1441px;&:hover{background-position: 0 -1480px;};}
+            &.yahoo{background-position:            0 -1521px;&:hover{background-position: 0 -1560px;};}
+            &.youtube{background-position:          0 -1601px;&:hover{background-position: 0 -1640px;};}
+            &.behance{background-position:          0 -1681px;&:hover{background-position: 0 -1720px;};}
+            &.instagram{background-position:        0 -1761px;&:hover{background-position: 0 -1800px;};}
+            
+
+        }
+    }
+}
+
+/*****************************************************************************
+** Retina display Images.
+******************************************************************************/
+
+@media screen and (-webkit-min-device-pixel-ratio: 2), 
+screen and (min--moz-device-pixel-ratio: 2), 
+screen and (max-moz-device-pixel-ratio: 2) {
+    .section-contact-bar{
+        .cb-menu{
+            li{
+                background: url( "@{plChildRoot}/sections/contact-bar/images/social-icons@2x.png") no-repeat;
+                background-size: auto 1840px;
+            }
+        }
+    }
+}

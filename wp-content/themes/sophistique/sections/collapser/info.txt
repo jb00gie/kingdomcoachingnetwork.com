@@ -1,0 +1,65 @@
+== Description ==
+
+Collapser is a simple but handy section that provides a way to show small pieces of information using an accordion-nav type with a feature image on a side to stand out the content.
+
+Every accordion item is a independent post using the WordPress build in "custom post type" and every accordion item use a unique image that you can setup with a couple of clicks also in every accordion item you can configurate:
+
+* Title
+* Content
+* Feature Image
+* External link (Optional)
+* Link text (Optional)
+
+Customization? Sure,  8 color settings to play with, also Collapser is cloneable, that means that you can use any number of instances on a single page to show different information at the same time.
+
+On any instance, you can chose a different: 
+
+* Section title 
+* Categories
+* Number of post to show
+* 8 different color per instance.
+* Thumbnail position (Left or right)
+* NEW - Full width tabs
+
+Works with Templates and main content.
+
+And of course Collapser is full responsive.
+
+
+
+[Follow me at Twitter](http://twitter.com/tmeister "Tmeister")  for news of next versions and new releases.
+
+
+== Features ==
+
+* Responsive
+* 8 color options
+* Cloneable
+* Thumbnail position (Left or right)
+
+
+
+
+== Changelog ==
+= 2.0 =
+* DMS Ready
+
+= 1.2.3 =
+* remove sprintf error with %
+
+= 1.2.2 =
+* Up to 100 posts
+
+= 1.2.1 =
+* Fix sprintf warning 
+
+= 1.2 =
+* Show up to 30 posts
+* Added a option to show all the tabs closed by default.
+
+= 1.1 =
+* Added full width tabs.
+* Show up to 25 posts 
+
+= 1.0 =
+* Public Release

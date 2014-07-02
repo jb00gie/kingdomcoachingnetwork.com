@@ -1,0 +1,151 @@
+@cMBack = #ffffff;
+@cMAlpha = .5;
+@cMText = @pl-text;
+@cMTextHover = @pl-link;
+.section-sophistique-menu{
+	/**************************************************************************
+	** Reset bottom margin on bootstrap spans
+	**************************************************************************/
+	.row > [class*="span"], .row-fluid > [class*="span"], .editor-row > [class*="span"] {
+		margin-bottom: 0px;
+	}
+
+	border-bottom: 1px solid #efefef;
+	#translucent > .background ( @cMBack, @cMAlpha );
+
+	.nav-sophis-holder{
+		float: right;
+	}
+
+	ul.menu-sophis{
+		display: block;
+		z-index: 2px;
+
+		clear: both;
+		li{
+			list-style: none;
+			float: left;
+			display: block;
+			position: relative;
+			font-size: 14px;
+			&:hover{
+
+				a{
+					color:@cMTextHover;
+					.transition( all 0.25s ease );
+					span{
+						color:@cMTextHover;
+						.transition( all 0.25s ease );
+					}
+				}
+
+				ul.sub-menu,
+	            ul.children{
+	                .transition(all .25s linear);
+	                opacity: 1;
+	                visibility: visible;
+	                left:0;
+	                z-index: 999;
+	            }
+			}
+			&:nth-last-child(-n+2){
+				ul.sub-menu,
+	        	ul.children{
+	        		ul.children,
+	            	ul.sub-menu{
+	            		left: -90%;
+	            	}
+	            }
+			}
+
+			a{
+				display: block;
+				color: @cMText;
+				font-weight: bold;
+				text-align: center;
+				padding: 30px 15px 27px 15px;
+				.transition( all 0.5s ease );
+
+				span{
+					color: @cMText;
+					display: block;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					text-transform: uppercase;
+					font-weight: normal;
+					font-size: 0.8em;
+					.transition( all 0.25s ease );
+				}
+			}
+
+
+
+			/**********************************************************************
+	        ** LEVEL 1 MENU
+	        **********************************************************************/
+
+	        ul.sub-menu,
+	        ul.children{
+	            opacity: 0;
+	            visibility: hidden;
+	            position: absolute;
+	            top:98%;
+	            left:-20%;
+	            background: #fff;
+	            border-top: 3px solid @cMTextHover;
+	            .box-shadow( 0 2px 3px rgba(0, 0, 0, 0.25) );
+	            .transition(all .25s linear);
+	            z-index: 999;
+	            li{
+	                a{
+	                	font-size: 0.9em;
+	                	font-weight: normal;
+	                    color:@cMText;
+	                    min-width: 150px;
+	                    text-align: left;
+	                    padding: 5px 10px;
+	                    border-bottom: 1px solid #EEE;
+
+	                    &:hover{
+							background: @cMTextHover;
+							color:#fff;
+	                    }
+
+	                    span{
+	                    	display: none;
+	                    }
+	                }
+
+	                div{
+	                    display: none;
+	                }
+
+	                &:hover{
+	                    ul.sub-menu,
+	                    ul.children{
+	                        .transition(all .25s linear);
+	                        opacity: 1;
+	                        visibility: visible;
+	                    }
+	                }
+	            }
+
+	            /******************************************************************
+	            ** LEVEL 2 MENU
+	            ******************************************************************/
+	            ul.children,
+	            ul.sub-menu{
+	            	background: #fff;
+	                opacity: 0;
+	                visibility: hidden;
+	                position: absolute;
+	                left:90%;
+	                top:10px;
+	                z-index: 1000;
+	                .transition(all .25s linear);
+	            }
+	        }
+		}
+	}
+
+}

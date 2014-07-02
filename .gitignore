@@ -1,0 +1,9 @@
+
+wp-config.php
+/wp-content/uploads/
+.DS_Store*
+/.vagrant/
+sitemap.xml.gz
+.htaccess
+/html/
+

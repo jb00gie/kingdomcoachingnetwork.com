@@ -1,0 +1,10 @@
+.CodeMirror{
+	border: 1px solid #ccc;
+}
+
+.saving-confirm{
+	
+	display: none;
+	margin: 0 15px; 
+	color: #000;
+}

@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'memberpress';
+  src: url('../font/memberpress.eot?49071654');
+  src: url('../font/memberpress.eot?49071654#iefix') format('embedded-opentype'),
+       url('../font/memberpress.woff?49071654') format('woff'),
+       url('../font/memberpress.ttf?49071654') format('truetype'),
+       url('../font/memberpress.svg?49071654#memberpress') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'memberpress';
+    src: url('../font/memberpress.svg?49071654#memberpress') format('svg');
+  }
+}
+*/
+ 
+ [class^="mp-icon-"]:before, [class*=" mp-icon-"]:before {
+  font-family: "memberpress";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+     
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.mp-icon-search:before { content: '\e81c'; } /* '' */
+.mp-icon-users-1:before { content: '\e828'; } /* '' */
+.mp-icon-mail-alt:before { content: '\e81e'; } /* '' */
+.mp-icon-star:before { content: '\e81f'; } /* '' */
+.mp-icon-star-empty:before { content: '\e820'; } /* '' */
+.mp-icon-users:before { content: '\e822'; } /* '' */
+.mp-icon-ok:before { content: '\e800'; } /* '' */
+.mp-icon-ok-circled:before { content: '\e801'; } /* '' */
+.mp-icon-cancel:before { content: '\e804'; } /* '' */
+.mp-icon-cancel-circled:before { content: '\e805'; } /* '' */
+.mp-icon-plus:before { content: '\e807'; } /* '' */
+.mp-icon-plus-circled:before { content: '\e808'; } /* '' */
+.mp-icon-minus:before { content: '\e80b'; } /* '' */
+.mp-icon-minus-circled:before { content: '\e80c'; } /* '' */
+.mp-icon-mail:before { content: '\e81d'; } /* '' */
+.mp-icon-help-circled:before { content: '\e810'; } /* '' */
+.mp-icon-info-circled:before { content: '\e811'; } /* '' */
+.mp-icon-lock:before { content: '\e819'; } /* '' */
+.mp-icon-lock-open:before { content: '\e81a'; } /* '' */
+.mp-icon-lock-open-alt:before { content: '\e81b'; } /* '' */
+.mp-icon-flag:before { content: '\e813'; } /* '' */
+.mp-icon-flag-empty:before { content: '\e814'; } /* '' */
+.mp-icon-arrows-cw:before { content: '\e825'; } /* '' */
+.mp-icon-level-up-1:before { content: '\e823'; } /* '' */
+.mp-icon-level-down-1:before { content: '\e824'; } /* '' */
+.mp-icon-level-down:before { content: '\e826'; } /* '' */
+.mp-icon-level-up:before { content: '\e827'; } /* '' */
+.mp-icon-help:before { content: '\e80f'; } /* '' */

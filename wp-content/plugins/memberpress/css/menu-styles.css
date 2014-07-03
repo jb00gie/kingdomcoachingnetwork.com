@@ -1,0 +1,15 @@
+@charset "UTF-8";
+ 
+.icon-memberpress-logo:before {
+  content: "\e828";
+}
+ 
+#toplevel_page_memberpress div.wp-menu-image img {
+  display: none;
+}
+
+#toplevel_page_memberpress div.wp-menu-image:before {
+  content: "\e828";
+  font-family: "memberpress";
+}
+

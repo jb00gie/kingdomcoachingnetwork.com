@@ -1,0 +1,100 @@
+.mepr_update_account_table .mepr_update_account_table_row {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.mepr_update_account_table .mepr_update_account_table_row label,
+.mepr_update_account_table .mepr_update_account_table_row password,
+.mepr_update_account_table .mepr_update_account_table_row input,
+.mepr_update_account_table .mepr_update_account_table_row textarea,
+.mepr_update_account_table .mepr_update_account_table_row select,
+.mepr_update_account_table .mepr_update_account_table_row .mepr_update_account_table_cell {
+  display: inline-block;
+}
+
+.mepr_update_account_table .mepr_update_account_table_row label {
+  width: 30%;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+.mepr_update_account_table .mepr_update_account_table_row input,
+.mepr_update_account_table .mepr_update_account_table_row password,
+.mepr_update_account_table .mepr_update_account_table_row textarea,
+.mepr_update_account_table .mepr_update_account_table_row select,
+.mepr_update_account_table .mepr_update_account_table_row .mepr_update_account_table_cell {
+  width: 40%;
+  max-width: 40%;
+  min-width: 40%;
+  padding: 5px;
+}
+
+.mepr_update_account_table .mepr_update_account_table_row .mepr_price_cell {
+  padding: 5px;
+  display: inline-block;
+}
+
+.mepr_signup_table .mepr_signup_table_row {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.mepr_signup_table .mepr_signup_table_row label,
+.mepr_signup_table .mepr_signup_table_row password,
+.mepr_signup_table .mepr_signup_table_row input,
+.mepr_signup_table .mepr_signup_table_row textarea,
+.mepr_signup_table .mepr_signup_table_row select,
+.mepr_signup_table .mepr_signup_table_row .mepr_signup_table_cell {
+  display: inline-block;
+}
+
+.mepr_signup_table .mepr_signup_table_row label {
+  width: 30%;
+  max-width: 30%;
+  min-width: 30%;
+}
+
+.mepr_signup_table .mepr_signup_table_row input,
+.mepr_signup_table .mepr_signup_table_row password,
+.mepr_signup_table .mepr_signup_table_row textarea,
+.mepr_signup_table .mepr_signup_table_row select,
+.mepr_signup_table .mepr_signup_table_row .mepr_signup_table_cell {
+  width: 40%;
+  max-width: 40%;
+  min-width: 40%;
+  padding: 5px;
+}
+
+.mepr_signup_table .mepr_signup_table_row .mepr_price_cell {
+  padding: 5px;
+  display: inline-block;
+}
+
+.mepr_bold {
+  font-weight: bold;
+}
+
+select.mepr-payment-form-select {
+  width:inherit !important;
+  min-width:inherit !important;
+  max-width:inherit !important;
+}
+
+.errors, .error {
+  color: red;
+}
+
+.mepr-form-checkbox {
+  width:14px !important;
+  min-width:14px !important;
+  margin:0px;
+}
+
+.mepr-form-checkbox-label {
+  width:90% !important;
+  min-width:90% !important;
+}
+
+.mepr_nojs {
+  color:red;
+}

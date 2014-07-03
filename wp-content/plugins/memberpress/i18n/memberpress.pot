@@ -1,0 +1,5274 @@
+# Copyright (C) 2014 MemberPress
+# This file is distributed under the same license as the MemberPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: MemberPress 1.1.6\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/memberpress\n"
+"POT-Creation-Date: 2014-06-05 18:50:17+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: app/controllers/MeprAWeberBasicController.php:51
+msgid "Enable AWeber Basic (deprecated)"
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:54
+msgid ""
+"AWeber Basic Integration has been deprecated ... please setup your AWeber "
+"Integration from the \"Enable AWeber\" option below"
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:56
+msgid "AWeber List Name"
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:58
+msgid ""
+"Enter the AWeber mailing list name that you want users signed up for when "
+"they sign up for Memberpress."
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:61
+msgid "Signup Checkbox Label"
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:63
+#: app/controllers/MeprAWeberController.php:112
+msgid ""
+"This is the text that will display on the signup page next to your mailing "
+"list opt-out checkbox."
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:103
+#: app/controllers/MeprAWeberController.php:65
+#: app/controllers/MeprAWeberController.php:497
+#: app/controllers/MeprGetResponseController.php:353
+#: app/controllers/MeprMailChimpController.php:395
+msgid "Sign Up for the %s Newsletter"
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:110
+#: app/controllers/MeprAWeberController.php:371
+#: app/controllers/MeprGetResponseController.php:116
+#: app/controllers/MeprMailChimpController.php:142
+msgid "We Respect Your Privacy"
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:138
+msgid "You're Almost Done - Activate Your Newsletter Subscription!"
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:139
+msgid ""
+"You've just been sent an email that contains a <strong>confirm link</strong>."
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:140
+msgid ""
+"In order to activate your subscription, check your email and click on the "
+"link in that email.\n"
+"         You will not receive your subscription until you <strong>click that "
+"link to activate it</strong>."
+msgstr ""
+
+#: app/controllers/MeprAWeberBasicController.php:142
+msgid ""
+"If you don't see that email in your inbox shortly, fill out the form again "
+"to have another copy of it sent to you."
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:37
+msgid "Are you sure you want to deauthorize your AWeber account on this site?"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:47
+msgid ""
+"Please install CURL on your webserver to enable MemberPress's AWeber "
+"Integration."
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:73
+msgid "Enable AWeber"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:80
+msgid "Connect to AWeber's API"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:81
+msgid ""
+"Click \"Connect to AWeber's API\" then copy the unique authorization code, "
+"paste it here and then click the \"Authorize\" button."
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:83
+msgid "Authorize"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:88
+msgid "AWeber is Currently Authorized:"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:89
+msgid "Deauthorize"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:94
+msgid "Global AWeber List:"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:98
+msgid ""
+"Select the AWeber mailing list name that you want users signed up for when "
+"they sign up for Memberpress."
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:103
+#: app/controllers/MeprGetResponseController.php:62
+#: app/controllers/MeprMailChimpController.php:88
+msgid "Enable Opt-In Checkbox"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:106
+#: app/controllers/MeprGetResponseController.php:66
+#: app/controllers/MeprMailChimpController.php:92
+msgid ""
+"If checked, an opt-in checkbox will appear on all of your product "
+"registration pages."
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:109
+msgid "Opt-In Checkbox Label:"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:150
+#: app/controllers/MeprAWeberController.php:188
+#: app/controllers/MeprAWeberController.php:205
+#: app/controllers/MeprGetResponseController.php:235
+#: app/controllers/MeprGetResponseController.php:255
+#: app/controllers/MeprMailChimpController.php:261
+#: app/controllers/MeprMailChimpController.php:281
+msgid "Hey yo, why you creepin'?"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:155
+msgid "No auth code was sent"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:173
+msgid "MemberPress was successfully authenticated with AWeber"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:176
+msgid "There was an error authenticating MemberPress with AWeber"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:196
+msgid "Your AWeber credentials were successfully deleted from MemberPress"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:438
+msgid "AWeber list for this Product"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:442
+msgid "Enable AWeber List"
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:443
+msgid ""
+"If this is set the member will be added to this list when their payment is "
+"completed for this product. If the member cancels their subscription, they "
+"will be removed from the list automatically. You must have AWeber configured "
+"in the MemberPress options before this will work."
+msgstr ""
+
+#: app/controllers/MeprAWeberController.php:447
+msgid "AWeber List:"
+msgstr ""
+
+#: app/controllers/MeprAccountController.php:213
+msgid "Your subscription was successfully paused."
+msgstr ""
+
+#: app/controllers/MeprAccountController.php:238
+msgid "You successfully resumed your subscription."
+msgstr ""
+
+#: app/controllers/MeprAccountController.php:263
+msgid "Your subscription was successfully cancelled."
+msgstr ""
+
+#: app/controllers/MeprAccountController.php:293
+msgid "Your account information was successfully updated."
+msgstr ""
+
+#: app/controllers/MeprApiController.php:65
+msgid "No credentials have been provided."
+msgstr ""
+
+#: app/controllers/MeprApiController.php:79 app/lib/MeprUtils.php:483
+msgid "UNAUTHORIZED: %s"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:56
+msgid "MemberPress Unauthorized Access on the Group Pricing Page"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:61
+msgid "This Group Pricing Page is Protected"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:68
+msgid "MemberPress Unauthorized Access"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:74
+#: app/controllers/MeprAppController.php:89
+msgid "This %s is Protected"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:83
+msgid "MemberPress Unauthorized Access to this %s"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:103
+msgid "Public"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:141
+#: app/controllers/MeprUpdateController.php:320
+msgid "Access"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:166
+msgid "This Content is Protected by %s MemberPress Access Rule"
+msgid_plural "This Content is Protected by %s MemberPress Access Rules"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/controllers/MeprAppController.php:170
+msgid "Click here to view"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:268
+msgid "Database upgrade complete"
+msgstr ""
+
+#. #-#-#-#-#  memberpress.pot (MemberPress 1.1.6)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: app/controllers/MeprAppController.php:293
+msgid "MemberPress"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:294
+#: app/controllers/MeprSubscriptionsController.php:22
+#: app/views/account/nav.php:8 app/views/subscriptions/list.php:8
+msgid "Subscriptions"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:295
+#: app/controllers/MeprReportsController.php:104 app/views/reports/main.php:61
+#: app/views/reports/main.php:99 app/views/transactions/list.php:7
+msgid "Transactions"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:296 app/views/help/ui.php:40
+#: app/views/reports/main.php:5
+msgid "Reports"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:297 app/views/options/form.php:5
+msgid "Options"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:299
+msgid "Help"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:302 app/views/update/ui.php:5
+msgid "Activate"
+msgstr ""
+
+#: app/controllers/MeprAppController.php:449
+msgid "the requested resource."
+msgstr ""
+
+#: app/controllers/MeprAppController.php:451
+msgid ""
+"<div class=\"mepr-unauthorized-error\">You are unauthorized to view %s</div>"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:27 app/views/help/ui.php:37
+msgid "Coupons"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:28
+msgid "Coupon"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:29
+msgid "Add New Coupon"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:30
+msgid "Edit Coupon"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:31
+msgid "New Coupon"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:32
+msgid "View Coupon"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:33
+msgid "Search Coupons"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:34
+msgid "No Coupons found"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:35
+msgid "No Coupons found in Trash"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:36
+msgid "Parent Coupon:"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:54
+msgid "Code"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:55
+#: app/views/account/subscriptions.php:15
+msgid "Created"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:56
+msgid "Discount"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:57
+msgid "Trial"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:58
+#: app/gateways/MeprAuthorizeGateway.php:799
+#: app/gateways/MeprAuthorizeGateway.php:957
+#: app/gateways/MeprStripeGateway.php:742
+#: app/gateways/MeprStripeGateway.php:885
+#: app/views/account/subscriptions.php:16
+msgid "Expires"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:59
+msgid "Usage Count"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:60
+msgid "Applies To"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:77 app/views/coupons/form.php:15
+msgid "%"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:84
+#: app/controllers/MeprUsersController.php:984
+#: app/helpers/MeprSubscriptionsHelper.php:51
+#: app/helpers/MeprTransactionsHelper.php:110
+#: app/helpers/MeprTransactionsHelper.php:111
+#: app/views/account/subscriptions.php:30
+#: app/views/account/subscriptions.php:39 app/views/subscriptions/row.php:143
+#: app/views/subscriptions/row.php:150 app/views/transactions/row.php:40
+msgid "Never"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:86
+msgid "Expired"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:92
+msgid "Unlimited"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:96
+msgid "%1$s days for %2$s"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:98
+#: app/controllers/MeprUsersController.php:974
+#: app/gateways/MeprAuthorizeGateway.php:881
+#: app/helpers/MeprOptionsHelper.php:14 app/models/MeprSubscription.php:481
+#: app/models/MeprTransaction.php:407 app/views/account/subscriptions.php:67
+#: app/views/transactions/row.php:87
+msgid "None"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:108
+msgid "Coupon Options"
+msgstr ""
+
+#: app/controllers/MeprCouponsController.php:201
+#: app/controllers/MeprRulesController.php:417
+msgid "Please select at least one Product before saving."
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:15
+#: app/controllers/MeprSubscriptionsController.php:101
+#: app/controllers/MeprSubscriptionsController.php:114
+#: app/controllers/MeprSubscriptionsController.php:127
+#: app/controllers/MeprSubscriptionsController.php:140
+#: app/controllers/MeprTransactionsController.php:279
+#: app/controllers/MeprTransactionsController.php:304
+#: app/controllers/MeprTransactionsController.php:324
+#: app/controllers/MeprTransactionsController.php:347
+#: app/controllers/MeprUpdateController.php:393
+msgid "You do not have access."
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:18
+msgid "Email couldn't be set to default"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:35
+msgid "You do not have access to send a test email."
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:39
+msgid "Can't send your email ... refresh the page and try it again."
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:62
+msgid "John"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:63
+msgid "Doe"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:64
+msgid "John Doe"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:66
+msgid "111 Cool Avenue"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:67
+msgid "New York, NY 10005"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:68
+msgid "United States"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:69
+msgid "User Meta Field: $1"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:70
+#: app/controllers/MeprEmailsController.php:72
+msgid "Bronze Edition"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:75
+#: app/controllers/MeprEmailsController.php:80
+#: app/controllers/MeprEmailsController.php:81
+#: app/controllers/MeprEmailsController.php:82
+#: app/helpers/MeprSubscriptionsHelper.php:48
+#: app/helpers/MeprTransactionsHelper.php:81
+msgid "F j, Y, g:i a"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:76
+#: app/controllers/MeprEmailsController.php:83
+msgid "Credit Card (Stripe)"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:84
+msgid "%s billed each month"
+msgstr ""
+
+#: app/controllers/MeprEmailsController.php:99
+msgid "Your test email was successfully sent."
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:32
+msgid "Enable GetResponse"
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:39
+msgid "GetResponse API Key:"
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:46
+msgid ""
+"You can find your API key under your Account settings at GetResponse.com."
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:54
+msgid "GetResponse List:"
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:71
+#: app/controllers/MeprMailChimpController.php:97
+msgid "Signup Checkbox Label:"
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:74
+#: app/controllers/MeprMailChimpController.php:100
+msgid ""
+"This is the text that will display on the signup page next to your mailing "
+"list opt-in checkbox."
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:198
+msgid "GetResponse list for this Product"
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:201
+msgid "Enable Product GetResponse List"
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:202
+msgid ""
+"If this is set the member will be added to this list when their payment is "
+"completed for this product. If the member cancels or you refund their "
+"subscription, they will be removed from the list automatically. You must "
+"have your GetResponse API key set in the Options before this will work."
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:206
+msgid "GetResponse List: "
+msgstr ""
+
+#: app/controllers/MeprGetResponseController.php:239
+#: app/controllers/MeprGetResponseController.php:260
+#: app/controllers/MeprMailChimpController.php:266
+#: app/controllers/MeprMailChimpController.php:286
+msgid "No apikey code was sent"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:26
+msgid "Groups"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:27
+msgid "Group"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:28
+msgid "Add New Group"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:29
+msgid "Edit Group"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:30
+msgid "New Group"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:31
+msgid "View Group"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:32
+msgid "Search Group"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:33
+msgid "No Group found"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:34
+msgid "No Group found in Trash"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:35
+msgid "Parent Group:"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:99
+msgid "Group Title"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:100
+#: app/controllers/MeprProductsController.php:60
+#: app/views/products/advanced.php:69 app/views/products/advanced.php:84
+msgid "URL"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:101
+msgid "Products in Group"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:150
+msgid "Group Options"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:151
+#: app/controllers/MeprProductsController.php:108
+msgid "Custom Page Template"
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:271
+msgid "Unknown error has occured."
+msgstr ""
+
+#: app/controllers/MeprGroupsController.php:292
+msgid ""
+"This product already belongs to another group. If you assign it to this "
+"group, it will be removed from the other."
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:48
+msgid "Enable MailChimp"
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:55
+msgid "MailChimp API Key:"
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:62
+msgid "You can find your API key under your Account settings at MailChimp.com."
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:70
+msgid "MailChimp List:"
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:78
+msgid "Enable Double Opt-in"
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:81
+msgid ""
+"Members will have to click a confirmation link in an email before being "
+"added to your list."
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:224
+msgid "MailChimp list for this Product"
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:227
+msgid "Enable Product MailChimp List"
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:228
+msgid ""
+"If this is set the member will be added to this list when their payment is "
+"completed for this product. If the member cancels or you refund their "
+"subscription, they will be removed from the list automatically. You must "
+"have your MailChimp API key set in the Options before this will work."
+msgstr ""
+
+#: app/controllers/MeprMailChimpController.php:232
+msgid "MailChimp List: "
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:84
+#: app/emails/MeprAdminCancelledSubEmail.php:33
+#: app/emails/MeprAdminDowngradedSubEmail.php:33
+#: app/emails/MeprAdminFailedTxnEmail.php:38
+#: app/emails/MeprAdminNewSubEmail.php:33
+#: app/emails/MeprAdminRefundedTxnEmail.php:38
+#: app/emails/MeprAdminResumedSubEmail.php:33
+#: app/emails/MeprAdminSignupEmail.php:34
+#: app/emails/MeprAdminSuspendedSubEmail.php:33
+#: app/emails/MeprAdminUpgradedSubEmail.php:33
+#: app/views/options/custom_fields_row.php:4
+msgid "Name:"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:85
+#: app/views/options/custom_fields_row.php:7
+msgid "Type:"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:86
+#: app/views/options/custom_fields_row.php:16
+msgid "Default Value:"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:87
+#: app/views/options/custom_fields_row.php:20
+msgid "Show at Signup"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:88
+#: app/views/options/custom_fields_row.php:23
+msgid "Required"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:89
+#: app/views/options/custom_fields_row.php:9
+msgid "Text"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:90
+#: app/views/options/custom_fields_row.php:10
+msgid "Textarea"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:91
+#: app/views/options/custom_fields_row.php:11
+msgid "Checkbox"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:92
+#: app/views/options/custom_fields_row.php:12
+msgid "Dropdown"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:93
+#: app/controllers/MeprReportsController.php:58
+#: app/views/account/payments.php:9 app/views/options/custom_fields_row.php:13
+#: app/views/reports/month_table.php:6 app/views/reports/year_table.php:6
+msgid "Date"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:94
+#: app/views/options/custom_fields_row.php:37
+msgid "Option Name:"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:95
+#: app/views/options/custom_fields_row.php:40
+msgid "Option Value:"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:96
+msgid "Add Option"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:100
+msgid ""
+"WARNING: Do not remove this Payment Method if you have active subscriptions "
+"using it. Doing so will prevent you from being notified of recurring "
+"payments for those subscriptions, which means your members will lose access "
+"to their paid content. Are you sure you want to delete this Payment Method?"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:111
+msgid "Unauthorized"
+msgstr ""
+
+#: app/controllers/MeprOptionsController.php:120
+msgid "No gateways were found"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:31
+#: app/controllers/MeprRulesController.php:81 app/views/groups/form.php:17
+#: app/views/help/ui.php:31
+msgid "Products"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:32
+#: app/controllers/MeprReportsController.php:103
+#: app/lib/MeprSubscriptionsTable.php:57 app/lib/MeprTransactionsTable.php:36
+#: app/views/account/payments.php:11 app/views/account/subscriptions.php:12
+msgid "Product"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:33
+msgid "Add New Product"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:34
+msgid "Edit Product"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:35
+msgid "New Product"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:36
+msgid "View Product"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:37
+msgid "Search Product"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:38
+msgid "No Product found"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:39
+msgid "No Product found in Trash"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:40
+msgid "Parent Product:"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:58
+msgid "Product Title"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:59
+#: app/lib/MeprSubscriptionsTable.php:58
+msgid "Terms"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:106
+msgid "Product Terms"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:110
+msgid "Product Options"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:410
+msgid "You have already purchased this item"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:410
+msgid "click here to access it"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:423
+msgid "You do not have access to purchase this item."
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:461
+#: app/helpers/MeprProductsHelper.php:43 app/helpers/MeprProductsHelper.php:54
+msgid "Remove Benefit"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:605
+msgid "An unknown error has occurred"
+msgstr ""
+
+#: app/controllers/MeprProductsController.php:610
+msgid "Please save product first to see the Price here."
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:59
+#: app/controllers/MeprReportsController.php:152
+#: app/controllers/MeprReportsController.php:213
+msgid "Completed"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:61
+#: app/controllers/MeprReportsController.php:154
+#: app/controllers/MeprReportsController.php:215
+#: app/helpers/MeprAppHelper.php:66 app/helpers/MeprAppHelper.php:80
+#: app/views/reports/month_table.php:7 app/views/reports/year_table.php:7
+#: app/views/subscriptions/row.php:171 app/views/transactions/row.php:109
+#: app/views/transactions/trans_form.php:48
+msgid "Pending"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:63
+#: app/controllers/MeprReportsController.php:156
+#: app/controllers/MeprReportsController.php:217
+#: app/emails/MeprAdminFailedTxnEmail.php:36
+#: app/emails/MeprUserFailedTxnEmail.php:35 app/helpers/MeprAppHelper.php:68
+#: app/views/reports/month_table.php:8 app/views/reports/year_table.php:8
+#: app/views/transactions/row.php:110 app/views/transactions/trans_form.php:49
+msgid "Failed"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:65
+#: app/controllers/MeprReportsController.php:158
+#: app/controllers/MeprReportsController.php:219
+#: app/emails/MeprAdminRefundedTxnEmail.php:36
+#: app/emails/MeprUserRefundedTxnEmail.php:35 app/helpers/MeprAppHelper.php:72
+#: app/views/reports/month_table.php:10 app/views/reports/month_table.php:12
+#: app/views/reports/year_table.php:10 app/views/reports/year_table.php:12
+#: app/views/transactions/row.php:111 app/views/transactions/trans_form.php:50
+msgid "Refunded"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:79
+#: app/controllers/MeprReportsController.php:172
+#: app/controllers/MeprReportsController.php:232
+msgid "Completed:"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:81
+#: app/controllers/MeprReportsController.php:174
+#: app/controllers/MeprReportsController.php:234
+msgid "Pending:"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:83
+#: app/controllers/MeprReportsController.php:176
+#: app/controllers/MeprReportsController.php:236
+msgid "Failed:"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:85
+#: app/controllers/MeprReportsController.php:178
+#: app/controllers/MeprReportsController.php:238
+msgid "Refunded:"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:110
+msgid "Other"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:151 app/lib/MeprUtils.php:58
+#: app/views/coupons/form.php:53
+msgid "Day"
+msgstr ""
+
+#: app/controllers/MeprReportsController.php:212 app/lib/MeprUtils.php:62
+#: app/views/coupons/form.php:49
+msgid "Month"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:40 app/views/help/ui.php:34
+msgid "Rules"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:41
+#: app/controllers/MeprUpdateController.php:318
+msgid "Rule"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:42
+msgid "Add New Rule"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:43
+msgid "Edit Rule"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:44
+msgid "New Rule"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:45
+msgid "View Rule"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:46
+msgid "Search Rules"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:47
+msgid "No Rules found"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:48
+msgid "No Rules found in Trash"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:49
+msgid "Parent Rule:"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:69
+msgid "All Content: "
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:78
+msgid "Title"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:79
+msgid "Type"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:80
+msgid "Content"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:110
+#: app/helpers/MeprRulesHelper.php:68
+msgid "Except"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:288
+msgid "Rule Options"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:289
+msgid "Drip / Expiration"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:290 app/views/options/form.php:63
+msgid "Unauthorized Access"
+msgstr ""
+
+#: app/controllers/MeprRulesController.php:381
+msgid "Error"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:23
+#: app/views/account/subscriptions.php:13
+msgid "Subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:24
+msgid "Add New Subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:25
+msgid "Edit Subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:26
+#: app/emails/MeprAdminNewSubEmail.php:27
+msgid "New Subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:27
+#: app/views/transactions/row.php:83 app/views/transactions/row.php:87
+msgid "View Subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:28
+msgid "Search Subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:29
+msgid "No Subscription found"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:30
+msgid "No Subscription found in Trash"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:31
+msgid "Parent Subscription:"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:55
+msgid ""
+"A Subscription should be cancelled (at the Gateway or here) by you, or by "
+"the Member on their Account page before being removed. Deleting an Active "
+"Subscription can cause future recurring payments not to be tracked properly. "
+"Are you sure you want to delete this Subscription?"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:56
+msgid "The Subscription could not be deleted. Please try again later."
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:57
+msgid ""
+"This will cancel all future payments for this subscription. Are you sure you "
+"want to cancel this Subscription?"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:58
+msgid ""
+"The Subscription could not be cancelled here. Please login to your gateway's "
+"virtual terminal to cancel it."
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:59
+msgid "The Subscription was successfully cancelled."
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:60
+#: app/emails/MeprAdminCancelledSubEmail.php:39
+#: app/emails/MeprUserCancelledSubEmail.php:34
+#: app/helpers/MeprAppHelper.php:84
+msgid "Stopped"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:61
+msgid ""
+"This will stop all payments for this subscription until the user logs into "
+"their account and resumes.\n"
+"\n"
+"Are you sure you want to pause this Subscription?"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:62
+msgid ""
+"The Subscription could not be paused here. Please login to your gateway's "
+"virtual terminal to pause it."
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:63
+msgid "The Subscription was successfully paused."
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:64
+#: app/emails/MeprAdminSuspendedSubEmail.php:39
+#: app/emails/MeprUserSuspendedSubEmail.php:34
+#: app/helpers/MeprAppHelper.php:86 app/views/subscriptions/row.php:173
+msgid "Paused"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:65
+msgid ""
+"This will resume payments for this subscription.\n"
+"\n"
+"Are you sure you want to resume this Subscription?"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:66
+msgid ""
+"The Subscription could not be resumed here. Please login to your gateway's "
+"virtual terminal to resume it."
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:67
+msgid "The Subscription was successfully resumed."
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:68
+#: app/emails/MeprAdminDowngradedSubEmail.php:39
+#: app/emails/MeprAdminNewSubEmail.php:39
+#: app/emails/MeprAdminResumedSubEmail.php:39
+#: app/emails/MeprAdminUpgradedSubEmail.php:39
+#: app/helpers/MeprAppHelper.php:82 app/views/account/subscriptions.php:63
+#: app/views/subscriptions/row.php:172
+msgid "Enabled"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:82
+#: app/controllers/MeprSubscriptionsController.php:89
+#: app/controllers/MeprTransactionsController.php:283
+#: app/controllers/MeprTransactionsController.php:298
+msgid "Save Failed"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:104
+msgid "Could not delete subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:117
+msgid "Could not pause subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:130
+msgid "Could not resume subscription"
+msgstr ""
+
+#: app/controllers/MeprSubscriptionsController.php:143
+msgid "Could not cancel subscription"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:80
+#: app/controllers/MeprTransactionsController.php:135
+#: app/controllers/MeprUpdateController.php:53
+#: app/controllers/MeprUsersController.php:675
+msgid "Why you creepin'?"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:122
+msgid "A transaction was created successfully."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:175
+msgid "The transaction was successfully updated."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:186
+msgid "The username must be set."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:193
+msgid "You must enter a valid username"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:198
+msgid "The amount must be set."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:201
+msgid "The amount must be a number."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:211
+msgid "This is not a subscription for product '%s' but for '%s'"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:220
+msgid "This is not a subscription for user '%s' but for '%s'"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:240
+msgid "This subscription was not found."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:244
+msgid ""
+"The Transaction Number is required, and must contain only letters, numbers, "
+"underscores and hyphens."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:257
+msgid ""
+"Deleting Transactions could cause the associated member to lose access to "
+"protected content. Are you sure you want to delete this Transaction?"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:258
+msgid "The Transaction could not be deleted. Please try again later."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:259
+msgid ""
+"This will refund the transaction at the gateway level. This action is not "
+"reversable. Are you sure you want to refund this Transaction?"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:260
+msgid "refunded"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:261
+msgid "Your transaction was successfully refunded."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:262
+msgid ""
+"The Transaction could not be refunded. Please issue the refund by logging "
+"into your gateway's virtual terminal"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:307
+msgid "Could not refund transaction"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:327
+msgid "Could not delete transaction"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:350
+msgid "Could not send email. Please try again later."
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:361
+msgid "Email sent"
+msgstr ""
+
+#: app/controllers/MeprTransactionsController.php:364
+#: app/controllers/MeprUsersController.php:672
+msgid "There was an issue sending the email"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:230
+msgid "Check for Update"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:313
+msgid "Membership"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:314
+msgid "Membership Software"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:315
+#: app/helpers/MeprProductsHelper.php:123
+msgid "Members"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:316
+msgid "Payment"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:317
+msgid "Protection"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:319
+msgid "Lock"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:321
+msgid "Community"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:322
+msgid "Admin"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:323 app/views/options/form.php:12
+msgid "Pages"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:324
+msgid "Posts"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:325
+msgid "Plugin"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:327
+msgid ""
+"You can access in-depth information about MemberPress at %1$sthe MemberPress "
+"User Manual%2$s."
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:327
+msgid "No Additional information right now"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:354
+msgid "You had an HTTP error connecting to Caseproof's Mothership API"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:365
+msgid "Your License Key was invalid"
+msgstr ""
+
+#: app/controllers/MeprUpdateController.php:396
+msgid "Edge updates couldn't be updated."
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:78 app/views/account/nav.php:13
+#: app/views/users/logged_in_template.php:6
+#: app/views/users/logged_in_widget.php:5
+msgid "Logout"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:84 app/lib/MeprLoginWidget.php:78
+#: app/views/options/form.php:35 app/views/shared/unauthorized.php:4
+#: app/views/shared/unauthorized_message.php:16
+#: app/views/users/logged_out_template.php:4
+#: app/views/users/logged_out_widget.php:4
+msgid "Login"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:340
+msgid "uid or tid wasn't present"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:346
+msgid "$user->ID wasn't set or wasn't an actual id"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:353
+msgid "Transaction Payment Method is invalid"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:393
+msgid "You're unauthorized to view this resource"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:658
+msgid "This user hasn't purchased any products - so no email will be sent."
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:669
+msgid "Message Sent"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:677
+msgid "Cannot resend message"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:805
+#: app/controllers/MeprUsersController.php:809
+#: app/controllers/MeprUsersController.php:825
+msgid "is required."
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:884 app/views/options/form.php:13
+#: app/views/options/form.php:31 app/views/users/logged_in_template.php:4
+#: app/views/users/logged_in_widget.php:4
+msgid "Account"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:918
+msgid "Active Products"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:919
+msgid "Registered"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:920
+msgid "Last Login"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:921
+msgid "# Logins"
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:1013
+msgid ""
+"You cannot register with this form. Please use the registration page found "
+"on the website instead."
+msgstr ""
+
+#: app/controllers/MeprUsersController.php:1033
+msgid "MemberPress Settings"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:10
+#: app/emails/MeprUserCancelledSubEmail.php:7
+msgid "<b>Cancelled Subscription</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:11
+msgid "This email is sent to you when a subscription is cancelled."
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:15
+msgid "** Subscription {$subscr_num} Was Cancelled"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:27
+msgid "Subscription Cancelled"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:28
+#: app/emails/MeprAdminDowngradedSubEmail.php:28
+#: app/emails/MeprAdminNewSubEmail.php:28
+#: app/emails/MeprAdminResumedSubEmail.php:28
+#: app/emails/MeprAdminSuspendedSubEmail.php:28
+#: app/emails/MeprAdminUpgradedSubEmail.php:28
+msgid "{$subscr_num} &ndash; {$user_full_name}"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:31
+msgid "A subscription was just cancelled on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:34
+#: app/emails/MeprAdminDowngradedSubEmail.php:34
+#: app/emails/MeprAdminFailedTxnEmail.php:39
+#: app/emails/MeprAdminNewSubEmail.php:34
+#: app/emails/MeprAdminRefundedTxnEmail.php:39
+#: app/emails/MeprAdminResumedSubEmail.php:34
+#: app/emails/MeprAdminSignupEmail.php:35
+#: app/emails/MeprAdminSuspendedSubEmail.php:34
+#: app/emails/MeprAdminUpgradedSubEmail.php:34
+#: app/emails/MeprUserCancelledSubEmail.php:35
+#: app/emails/MeprUserDowngradedSubEmail.php:35
+#: app/emails/MeprUserFailedTxnEmail.php:36
+#: app/emails/MeprUserRefundedTxnEmail.php:36
+#: app/emails/MeprUserResumedSubEmail.php:35
+#: app/emails/MeprUserSuspendedSubEmail.php:35
+#: app/emails/MeprUserUpgradedSubEmail.php:35 app/views/account/home.php:28
+msgid "Email:"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:35
+#: app/emails/MeprAdminDowngradedSubEmail.php:35
+#: app/emails/MeprAdminFailedTxnEmail.php:40
+#: app/emails/MeprAdminNewSubEmail.php:35
+#: app/emails/MeprAdminRefundedTxnEmail.php:40
+#: app/emails/MeprAdminResumedSubEmail.php:35
+#: app/emails/MeprAdminSignupEmail.php:36
+#: app/emails/MeprAdminSuspendedSubEmail.php:35
+#: app/emails/MeprAdminUpgradedSubEmail.php:35
+#: app/emails/MeprUserCancelledSubEmail.php:36
+#: app/emails/MeprUserDowngradedSubEmail.php:36
+#: app/emails/MeprUserFailedTxnEmail.php:37
+#: app/emails/MeprUserRefundedTxnEmail.php:37
+#: app/emails/MeprUserResumedSubEmail.php:36
+#: app/emails/MeprUserSuspendedSubEmail.php:36
+#: app/emails/MeprUserUpgradedSubEmail.php:36
+msgid "Login:"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:36
+#: app/emails/MeprAdminCcExpiringEmail.php:34
+#: app/emails/MeprAdminDowngradedSubEmail.php:36
+#: app/emails/MeprAdminNewSubEmail.php:36
+#: app/emails/MeprAdminResumedSubEmail.php:36
+#: app/emails/MeprAdminSuspendedSubEmail.php:36
+#: app/emails/MeprAdminUpgradedSubEmail.php:36
+#: app/emails/MeprUserCancelledSubEmail.php:32
+#: app/emails/MeprUserCcExpiringEmail.php:32
+#: app/emails/MeprUserDowngradedSubEmail.php:32
+#: app/emails/MeprUserResumedSubEmail.php:32
+#: app/emails/MeprUserSuspendedSubEmail.php:32
+#: app/emails/MeprUserUpgradedSubEmail.php:32
+#: app/views/transactions/trans_form.php:65
+msgid "Subscription:"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:37
+#: app/emails/MeprAdminDowngradedSubEmail.php:37
+#: app/emails/MeprAdminNewSubEmail.php:37
+#: app/emails/MeprAdminResumedSubEmail.php:37
+#: app/emails/MeprAdminSuspendedSubEmail.php:37
+#: app/emails/MeprAdminUpgradedSubEmail.php:37
+#: app/emails/MeprUserCancelledSubEmail.php:31
+#: app/emails/MeprUserDowngradedSubEmail.php:31
+#: app/emails/MeprUserResumedSubEmail.php:31
+#: app/emails/MeprUserSuspendedSubEmail.php:31
+#: app/emails/MeprUserUpgradedSubEmail.php:31
+msgid "Terms:"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:38
+#: app/emails/MeprAdminDowngradedSubEmail.php:38
+#: app/emails/MeprAdminNewSubEmail.php:38
+#: app/emails/MeprAdminResumedSubEmail.php:38
+#: app/emails/MeprAdminSuspendedSubEmail.php:38
+#: app/emails/MeprAdminUpgradedSubEmail.php:38
+#: app/emails/MeprUserCancelledSubEmail.php:33
+#: app/emails/MeprUserDowngradedSubEmail.php:33
+#: app/emails/MeprUserResumedSubEmail.php:33
+#: app/emails/MeprUserSuspendedSubEmail.php:33
+#: app/emails/MeprUserUpgradedSubEmail.php:33
+msgid "Started:"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:39
+msgid "Auto Rebill:"
+msgstr ""
+
+#: app/emails/MeprAdminCancelledSubEmail.php:40
+#: app/emails/MeprAdminCcExpiringEmail.php:39
+#: app/emails/MeprAdminDowngradedSubEmail.php:40
+#: app/emails/MeprAdminFailedTxnEmail.php:37
+#: app/emails/MeprAdminNewSubEmail.php:40
+#: app/emails/MeprAdminReceiptEmail.php:36
+#: app/emails/MeprAdminRefundedTxnEmail.php:37
+#: app/emails/MeprAdminResumedSubEmail.php:40
+#: app/emails/MeprAdminSuspendedSubEmail.php:40
+#: app/emails/MeprAdminUpgradedSubEmail.php:40
+msgid "Payment System:"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:10
+#: app/emails/MeprUserCcExpiringEmail.php:7
+msgid "<b>Credit Card Expiring</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:11
+msgid "This email is sent to you when a member's credit card is expiring"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:15
+msgid "** Credit Card Expiring For {$subscr_num}"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:27
+msgid ""
+"A Credit Card is Expiring on {$subscr_cc_month_exp}/{$subscr_cc_year_exp}"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:31
+msgid ""
+"A member's Credit Card will expire before their next billing on {$blog_name}."
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:33
+#: app/emails/MeprUserCancelledSubEmail.php:30
+#: app/emails/MeprUserCcExpiringEmail.php:31
+#: app/emails/MeprUserDowngradedSubEmail.php:30
+#: app/emails/MeprUserFailedTxnEmail.php:31
+#: app/emails/MeprUserRefundedTxnEmail.php:31
+#: app/emails/MeprUserResumedSubEmail.php:30
+#: app/emails/MeprUserSuspendedSubEmail.php:30
+#: app/emails/MeprUserUpgradedSubEmail.php:30
+msgid "Website:"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:35
+#: app/emails/MeprUserCcExpiringEmail.php:33
+msgid "Subscription Num:"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:36
+#: app/emails/MeprUserCcExpiringEmail.php:34
+msgid "Credit Card Num:"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:37
+#: app/emails/MeprUserCcExpiringEmail.php:35
+msgid "Credit Card Exp:"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:38
+#: app/emails/MeprUserCcExpiringEmail.php:36
+msgid "Next Billing:"
+msgstr ""
+
+#: app/emails/MeprAdminCcExpiringEmail.php:45
+#: app/emails/MeprAdminReceiptEmail.php:42
+#: app/emails/MeprUserCcExpiringEmail.php:42
+#: app/emails/MeprUserReceiptEmail.php:48
+msgid "Billed to"
+msgstr ""
+
+#: app/emails/MeprAdminDowngradedSubEmail.php:10
+#: app/emails/MeprUserDowngradedSubEmail.php:7
+msgid "<b>Downgraded Subscription</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminDowngradedSubEmail.php:11
+msgid "This email is sent to you when a subscription is downgraded."
+msgstr ""
+
+#: app/emails/MeprAdminDowngradedSubEmail.php:15
+msgid "** Subscription {$subscr_num} Downgraded"
+msgstr ""
+
+#: app/emails/MeprAdminDowngradedSubEmail.php:27
+msgid "Subscription Downgraded"
+msgstr ""
+
+#: app/emails/MeprAdminDowngradedSubEmail.php:31
+msgid "A user downgraded their subscription on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminDowngradedSubEmail.php:39
+#: app/emails/MeprAdminNewSubEmail.php:39
+#: app/emails/MeprAdminResumedSubEmail.php:39
+#: app/emails/MeprAdminSuspendedSubEmail.php:39
+#: app/emails/MeprAdminUpgradedSubEmail.php:39
+msgid "Auto-Rebilling:"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:10
+#: app/emails/MeprUserFailedTxnEmail.php:7
+msgid "<b>Failed Transaction</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:11
+msgid "This email is sent to you when a transaction fails."
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:15
+msgid "** Transaction Failed"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:27
+msgid "Transaction Failed"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:28
+#: app/emails/MeprAdminRefundedTxnEmail.php:28
+msgid "{$trans_num} &ndash; {$user_full_name}"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:31
+msgid "A transaction just failed on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:33
+#: app/emails/MeprAdminRefundedTxnEmail.php:33
+#: app/emails/MeprUserFailedTxnEmail.php:32
+#: app/emails/MeprUserReceiptEmail.php:29
+#: app/emails/MeprUserRefundedTxnEmail.php:32
+msgid "Amount:"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:34
+#: app/emails/MeprAdminReceiptEmail.php:35
+#: app/emails/MeprAdminRefundedTxnEmail.php:34
+#: app/emails/MeprUserFailedTxnEmail.php:33
+#: app/emails/MeprUserReceiptEmail.php:32
+#: app/emails/MeprUserRefundedTxnEmail.php:33
+msgid "Transaction:"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:35
+#: app/emails/MeprAdminRefundedTxnEmail.php:35
+#: app/emails/MeprUserFailedTxnEmail.php:34
+#: app/emails/MeprUserReceiptEmail.php:30
+#: app/emails/MeprUserRefundedTxnEmail.php:34
+msgid "Date:"
+msgstr ""
+
+#: app/emails/MeprAdminFailedTxnEmail.php:36
+#: app/emails/MeprAdminRefundedTxnEmail.php:36
+#: app/emails/MeprUserCancelledSubEmail.php:34
+#: app/emails/MeprUserDowngradedSubEmail.php:34
+#: app/emails/MeprUserFailedTxnEmail.php:35
+#: app/emails/MeprUserRefundedTxnEmail.php:35
+#: app/emails/MeprUserResumedSubEmail.php:34
+#: app/emails/MeprUserSuspendedSubEmail.php:34
+#: app/emails/MeprUserUpgradedSubEmail.php:34
+#: app/views/transactions/trans_form.php:44 app/views/update/ui.php:33
+msgid "Status:"
+msgstr ""
+
+#: app/emails/MeprAdminNewSubEmail.php:10
+msgid "<b>New Subscription</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminNewSubEmail.php:11
+msgid "This email is sent to you when a subscription is created."
+msgstr ""
+
+#: app/emails/MeprAdminNewSubEmail.php:15
+msgid "** New Subscription: {$subscr_num}"
+msgstr ""
+
+#: app/emails/MeprAdminNewSubEmail.php:31
+msgid "A subscription was just created on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:10
+#: app/emails/MeprUserReceiptEmail.php:7
+msgid "<b>Payment Receipt</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:11
+msgid ""
+"This email is sent to you when a payment comes through on your membership "
+"site"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:15
+msgid "** Payment of {$payment_amount} from {$user_full_name}"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:27
+msgid "Payment from {$user_full_name}"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:28
+msgid "{$product_name} &ndash; {$trans_num}"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:32
+msgid "Payment Amount:"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:33
+msgid "Invoice Number:"
+msgstr ""
+
+#: app/emails/MeprAdminReceiptEmail.php:34
+msgid "Invoice Date:"
+msgstr ""
+
+#: app/emails/MeprAdminRefundedTxnEmail.php:10
+#: app/emails/MeprUserRefundedTxnEmail.php:7
+msgid "<b>Refunded Transaction</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminRefundedTxnEmail.php:11
+msgid "This email is sent to you when a transaction is refunded."
+msgstr ""
+
+#: app/emails/MeprAdminRefundedTxnEmail.php:15
+msgid "** Transaction {$trans_num} Was Refunded"
+msgstr ""
+
+#: app/emails/MeprAdminRefundedTxnEmail.php:27
+msgid "Transaction Refunded"
+msgstr ""
+
+#: app/emails/MeprAdminRefundedTxnEmail.php:31
+msgid "A transaction was just refunded on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminResumedSubEmail.php:10
+#: app/emails/MeprUserResumedSubEmail.php:7
+msgid "<b>Resumed Subscription</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminResumedSubEmail.php:11
+msgid "This email is sent to you when a subscription is resumed."
+msgstr ""
+
+#: app/emails/MeprAdminResumedSubEmail.php:15
+msgid "** Subscription {$subscr_num} Resumed"
+msgstr ""
+
+#: app/emails/MeprAdminResumedSubEmail.php:27
+msgid "Subscription Resumed"
+msgstr ""
+
+#: app/emails/MeprAdminResumedSubEmail.php:31
+msgid "A user resumed their subscription on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:10
+msgid "<b>New Signup</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:11
+msgid ""
+"This email is sent to you when a user registers for your membership site and "
+"their first transaction completes."
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:15
+msgid "** New Signup: {$username}"
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:27
+msgid "New Signup"
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:28
+msgid "{$user_full_name} ({$username})"
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:31
+msgid "A new user just signed up on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:33 app/views/options/gateway.php:27
+msgid "ID:"
+msgstr ""
+
+#: app/emails/MeprAdminSignupEmail.php:37
+msgid "IP:"
+msgstr ""
+
+#: app/emails/MeprAdminSuspendedSubEmail.php:10
+#: app/emails/MeprUserSuspendedSubEmail.php:7
+msgid "<b>Paused Subscription</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminSuspendedSubEmail.php:11
+msgid "This email is sent to you when a subscription is paused."
+msgstr ""
+
+#: app/emails/MeprAdminSuspendedSubEmail.php:15
+msgid "** Subscription {$subscr_num} Paused"
+msgstr ""
+
+#: app/emails/MeprAdminSuspendedSubEmail.php:27
+msgid "Subscription Paused"
+msgstr ""
+
+#: app/emails/MeprAdminSuspendedSubEmail.php:31
+msgid "A subscription was paused on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprAdminUpgradedSubEmail.php:10
+#: app/emails/MeprUserUpgradedSubEmail.php:7
+msgid "<b>Upgraded Subscription</b> Notice"
+msgstr ""
+
+#: app/emails/MeprAdminUpgradedSubEmail.php:11
+msgid "This email is sent to you when a subscription is upgraded."
+msgstr ""
+
+#: app/emails/MeprAdminUpgradedSubEmail.php:15
+msgid "** Subscription {$subscr_num} Upgraded"
+msgstr ""
+
+#: app/emails/MeprAdminUpgradedSubEmail.php:27
+msgid "Subscription Upgraded"
+msgstr ""
+
+#: app/emails/MeprAdminUpgradedSubEmail.php:31
+msgid "A user upgraded their subscription on {$blog_name}:"
+msgstr ""
+
+#: app/emails/MeprUserCancelledSubEmail.php:8
+msgid "This email is sent to the user when a subscription is cancelled."
+msgstr ""
+
+#: app/emails/MeprUserCancelledSubEmail.php:12
+msgid "** Your Automatic Payments Have Been Stopped"
+msgstr ""
+
+#: app/emails/MeprUserCancelledSubEmail.php:24
+msgid "Your Automatic Payments Have Been Stopped"
+msgstr ""
+
+#: app/emails/MeprUserCancelledSubEmail.php:25
+#: app/emails/MeprUserDowngradedSubEmail.php:25
+#: app/emails/MeprUserResumedSubEmail.php:25
+#: app/emails/MeprUserSuspendedSubEmail.php:25
+#: app/emails/MeprUserUpgradedSubEmail.php:25
+msgid "{$subscr_num} &ndash; {$blog_name}"
+msgstr ""
+
+#: app/emails/MeprUserCancelledSubEmail.php:28
+msgid "Your subscription on {$blog_name} was cancelled:"
+msgstr ""
+
+#: app/emails/MeprUserCcExpiringEmail.php:8
+msgid "This email is sent to a member when their credit card is expiring"
+msgstr ""
+
+#: app/emails/MeprUserCcExpiringEmail.php:12
+msgid "** Your Credit Card is Expiring"
+msgstr ""
+
+#: app/emails/MeprUserCcExpiringEmail.php:24
+msgid ""
+"Your Credit Card is Expiring on {$subscr_cc_month_exp}/{$subscr_cc_year_exp}"
+msgstr ""
+
+#: app/emails/MeprUserCcExpiringEmail.php:28
+msgid "Your Credit Card will expire before your next billing on {$blog_name}."
+msgstr ""
+
+#: app/emails/MeprUserCcExpiringEmail.php:29
+msgid ""
+"To avoid any interruptions in your subscription, please %1$slogin to your "
+"account%2$s and update your credit card information."
+msgstr ""
+
+#: app/emails/MeprUserDowngradedSubEmail.php:8
+msgid "This email is sent to the user when they downgrade a subscription."
+msgstr ""
+
+#: app/emails/MeprUserDowngradedSubEmail.php:12
+msgid "** You've downgraded your subscription"
+msgstr ""
+
+#: app/emails/MeprUserDowngradedSubEmail.php:24
+msgid "Your subscription has been downgraded"
+msgstr ""
+
+#: app/emails/MeprUserDowngradedSubEmail.php:28
+msgid "Your subscription on {$blog_name} was downgraded:"
+msgstr ""
+
+#: app/emails/MeprUserDowngradedSubEmail.php:34
+#: app/emails/MeprUserResumedSubEmail.php:34
+#: app/emails/MeprUserUpgradedSubEmail.php:34
+#: app/lib/MeprSubscriptionsTable.php:55
+#: app/views/account/subscriptions.php:14
+msgid "Active"
+msgstr ""
+
+#: app/emails/MeprUserFailedTxnEmail.php:8
+msgid "This email is sent to the user when a transaction of theirs fails."
+msgstr ""
+
+#: app/emails/MeprUserFailedTxnEmail.php:12
+msgid "** Your Transaction Failed"
+msgstr ""
+
+#: app/emails/MeprUserFailedTxnEmail.php:24
+msgid "Your Transaction Failed"
+msgstr ""
+
+#: app/emails/MeprUserFailedTxnEmail.php:25
+#: app/emails/MeprUserRefundedTxnEmail.php:25
+msgid "{$trans_num} &ndash; {$blog_name}"
+msgstr ""
+
+#: app/emails/MeprUserFailedTxnEmail.php:28
+msgid ""
+"Sorry, your transaction on {$blog_name} failed. Please update your payment "
+"details and retry your purchase."
+msgstr ""
+
+#: app/emails/MeprUserFailedTxnEmail.php:29
+msgid "Here are the details of your transaction:"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:9
+msgid "Product-Specific Welcome Email to User"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:10
+msgid "This email is sent when this product is purchased."
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:15
+msgid "** Thanks for Purchasing {$product_name}"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:27
+msgid "Thanks for Purchasing {$product_name}"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:31
+#: app/emails/MeprUserWelcomeEmail.php:28
+msgid "You can login here: {$login_page}"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:32
+#: app/emails/MeprUserWelcomeEmail.php:29
+msgid "Using this username and password:"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:35
+#: app/emails/MeprUserWelcomeEmail.php:32 app/views/shared/signup_form.php:114
+msgid "Username:"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:36
+#: app/emails/MeprUserWelcomeEmail.php:33
+msgid "Password:"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:36
+#: app/emails/MeprUserWelcomeEmail.php:33
+msgid "*** Password you set during signup ***"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:39
+#: app/emails/MeprUserWelcomeEmail.php:36
+msgid "Cheers!"
+msgstr ""
+
+#: app/emails/MeprUserProductWelcomeEmail.php:40
+#: app/emails/MeprUserWelcomeEmail.php:37
+msgid "The {$blog_name} Team"
+msgstr ""
+
+#: app/emails/MeprUserReceiptEmail.php:8
+msgid ""
+"This email is sent to a user when payment completes for one of your products "
+"in her behalf."
+msgstr ""
+
+#: app/emails/MeprUserReceiptEmail.php:12
+msgid "** Payment Receipt"
+msgstr ""
+
+#: app/emails/MeprUserReceiptEmail.php:24
+msgid "Payment Receipt"
+msgstr ""
+
+#: app/emails/MeprUserReceiptEmail.php:25
+msgid "for your payment to {$blog_name}"
+msgstr ""
+
+#: app/emails/MeprUserReceiptEmail.php:31
+msgid "Invoice:"
+msgstr ""
+
+#: app/emails/MeprUserReceiptEmail.php:38
+msgid "Paid to"
+msgstr ""
+
+#: app/emails/MeprUserRefundedTxnEmail.php:8
+msgid "This email is sent to the user when a transaction is refunded."
+msgstr ""
+
+#: app/emails/MeprUserRefundedTxnEmail.php:12
+msgid "** Your Transaction Was Refunded"
+msgstr ""
+
+#: app/emails/MeprUserRefundedTxnEmail.php:24
+msgid "Your Transaction Was Refunded"
+msgstr ""
+
+#: app/emails/MeprUserRefundedTxnEmail.php:29
+msgid "Your transaction on {$blog_name} was refunded:"
+msgstr ""
+
+#: app/emails/MeprUserResumedSubEmail.php:8
+msgid "This email is sent to the user when they resume a subscription."
+msgstr ""
+
+#: app/emails/MeprUserResumedSubEmail.php:12
+msgid "** Your subscription has resumed"
+msgstr ""
+
+#: app/emails/MeprUserResumedSubEmail.php:24
+msgid "Your subscription has resumed"
+msgstr ""
+
+#: app/emails/MeprUserResumedSubEmail.php:28
+msgid "Your subscription on {$blog_name} has resumed:"
+msgstr ""
+
+#: app/emails/MeprUserSuspendedSubEmail.php:8
+msgid ""
+"This email is sent to the user when one of their subscriptions is paused."
+msgstr ""
+
+#: app/emails/MeprUserSuspendedSubEmail.php:12
+msgid "** You've paused your subscription"
+msgstr ""
+
+#: app/emails/MeprUserSuspendedSubEmail.php:24
+msgid "Your subscription has been paused"
+msgstr ""
+
+#: app/emails/MeprUserSuspendedSubEmail.php:28
+msgid "Your subscription on {$blog_name} was paused:"
+msgstr ""
+
+#: app/emails/MeprUserUpgradedSubEmail.php:8
+msgid "This email is sent to the user when they upgrade a subscription."
+msgstr ""
+
+#: app/emails/MeprUserUpgradedSubEmail.php:12
+msgid "** You've upgraded your subscription"
+msgstr ""
+
+#: app/emails/MeprUserUpgradedSubEmail.php:24
+msgid "Your subscription has been upgraded"
+msgstr ""
+
+#: app/emails/MeprUserUpgradedSubEmail.php:28
+msgid "Your subscription on {$blog_name} was upgraded:"
+msgstr ""
+
+#: app/emails/MeprUserWelcomeEmail.php:7
+msgid "<b>Welcome Email</b>"
+msgstr ""
+
+#: app/emails/MeprUserWelcomeEmail.php:8
+msgid ""
+"This email is sent welcome a new user when she initially signs up for your "
+"membership site with a completed purchase."
+msgstr ""
+
+#: app/emails/MeprUserWelcomeEmail.php:12
+msgid "** Welcome to {$blog_name}"
+msgstr ""
+
+#: app/emails/MeprUserWelcomeEmail.php:24
+msgid "Welcome {$user_first_name}!"
+msgstr ""
+
+#: app/gateways/MeprArtificialGateway.php:9
+msgid "Offline Payment"
+msgstr ""
+
+#: app/gateways/MeprArtificialGateway.php:235
+msgid "Admin Must Manually Complete Transactions"
+msgstr ""
+
+#: app/gateways/MeprArtificialGateway.php:257
+msgid ""
+"This action is not possible with the payment method used with this "
+"Subscription"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:9
+msgid "Authorize.net"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:135
+#: app/gateways/MeprAuthorizeGateway.php:449
+#: app/gateways/MeprStripeGateway.php:79
+#: app/gateways/MeprStripeGateway.php:341
+msgid ""
+"Payment was unsuccessful, please check your payment details and try again."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:339
+msgid "This transaction is invalid."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:394
+msgid ""
+"This transaction can't be refunded in MemberPress, please refund through "
+"your Virtual Terminal."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:594
+#: app/gateways/MeprAuthorizeGateway.php:598
+msgid "Your payment details are invalid, please check them and try again."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:692
+msgid "This subscription is invalid."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:772
+#: app/gateways/MeprStripeGateway.php:728
+#: app/gateways/MeprStripeGateway.php:876
+msgid "Please enter your Credit Card information below"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:775
+#: app/gateways/MeprStripeGateway.php:732
+#: app/lib/MeprSubscriptionsTable.php:73
+msgid "Price"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:783
+msgid "First Name"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:788
+msgid "Last Name"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:794
+#: app/gateways/MeprAuthorizeGateway.php:952
+#: app/gateways/MeprStripeGateway.php:737
+#: app/gateways/MeprStripeGateway.php:880
+msgid "Credit Card #"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:805
+#: app/gateways/MeprAuthorizeGateway.php:963
+#: app/gateways/MeprStripeGateway.php:748
+#: app/gateways/MeprStripeGateway.php:891
+msgid "CVV Code"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:809
+#: app/gateways/MeprStripeGateway.php:752
+#: app/gateways/MeprStripeGateway.php:895
+msgid "Submit"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:820
+msgid "An unknown error has occurred."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:827
+msgid "Your first name and last name must not be blank."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:830
+#: app/gateways/MeprAuthorizeGateway.php:980
+msgid "You must enter your Credit Card number."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:832
+#: app/gateways/MeprAuthorizeGateway.php:982
+msgid "Your credit card number is invalid."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:835
+#: app/gateways/MeprAuthorizeGateway.php:985
+msgid "You must enter your CVV code."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:857
+msgid "Login Name:"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:861
+msgid "Transaction Key:"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:865
+msgid "Virtual Terminal Logins (optional):"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:869
+msgid "Use Authorize.net Sandbox"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:872
+msgid "Send Authorize.net Debug Emails"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:875
+#: app/gateways/MeprStripeGateway.php:800
+msgid "Force SSL"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:878
+msgid "Catch Up Payment Type"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:882
+msgid "Period"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:883
+msgid "Proration"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:884
+msgid "Full"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:889
+msgid "Silent Post URL:"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:893
+msgid "MD5 Hash Value:"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:908
+msgid "Login Name field cannot be blank."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:912
+msgid "Transaction Key field cannot be blank."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:944
+msgid ""
+"Note: Because your subscription is expired, when you update your credit card "
+"number our system will attempt to bill your card for the prorated amount of "
+"%s to catch you up until the next automatic billing."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:949
+msgid "Update your Credit Card information below"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:967
+msgid "Update Credit Card"
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:977
+msgid "An unknown error has occurred. Please try again."
+msgstr ""
+
+#: app/gateways/MeprAuthorizeGateway.php:1027
+#: app/gateways/MeprAuthorizeGateway.php:1029
+#: app/gateways/MeprAuthorizeGateway.php:1113
+#: app/gateways/MeprAuthorizeGateway.php:1115
+msgid "You had an HTTP error connecting to %s: %s"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:11 app/helpers/MeprOptionsHelper.php:45
+msgid "PayPal"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:341
+msgid ""
+"The refund was unsuccessful. Please login at PayPal and refund the "
+"transaction there."
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:730
+msgid "API Username:"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:734
+msgid "API Password:"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:738
+msgid "Signature:"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:742
+msgid "Use PayPal Sandbox"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:745
+msgid "Send PayPal Debug Emails"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:748
+msgid "PayPal IPN URL:"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:781
+msgid "PayPal API Username field can't be blank."
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:784
+msgid "PayPal API Password field can't be blank."
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:787
+msgid "PayPal Signature field can't be blank."
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:795
+msgid "Updating your PayPal Account Information"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:796
+msgid ""
+"To update your PayPal Account Information, please go to %sPayPal.com%s, "
+"login and edit your account information there."
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:845
+#: app/gateways/MeprStripeGateway.php:1125
+msgid "You had an HTTP error connecting to %s"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:909
+msgid "Your payment at PayPal was cancelled."
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:910
+msgid ""
+"You can still %1$slogin%2$s and finish your transaction using the username & "
+"password you just setup."
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:926
+msgid "** PayPal Payment ERROR on %s"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:927
+msgid ""
+"Your PayPal account isn't setup to sell Digital Goods.\n"
+"\n"
+"Your recurring billing profiles and transactions won't complete properly "
+"until this problem is fixed.\n"
+"\n"
+"Follow these instructions to enable Digital Goods:\n"
+"1) Sign in to your PayPal account (must be signed in before visiting the "
+"link below)\n"
+"2) Visit https://www.paypal.com/us/webapps/mpp/digital in your browser\n"
+"3) Follow the steps PayPal provides here to add Digital Goods to your "
+"account\n"
+"\n"
+"If you still have issues getting this to work, please contact customer "
+"support at http://memberpress.com/support.\n"
+"\n"
+"Thanks,\n"
+"\n"
+"The MemberPress Team\n"
+msgstr ""
+
+#: app/gateways/MeprPayPalGateway.php:965
+msgid ""
+"There was a problem cancelling, try logging in directly at PayPal to update "
+"the status of your recurring profile."
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:10
+msgid "Stripe"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:86
+msgid "%s (transaction: %s)"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:100
+#: app/gateways/MeprStripeGateway.php:356
+#: app/gateways/MeprStripeGateway.php:469
+msgid ""
+"There was a problem sending your credit card details to the processor. "
+"Please try again later."
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:753
+msgid ""
+"JavaScript is disabled in your browser. You will not be able to complete "
+"your purchase until you either enable JavaScript in your browser, or switch "
+"to a browser that supports it."
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:780
+msgid "Test Secret Key:"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:784
+msgid "Test Publishable Key:"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:788
+msgid "Live Secret Key:"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:792
+msgid "Live Publishable Key:"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:797
+msgid "Test Mode"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:803
+msgid "Send Debug Emails"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:806
+msgid "Stripe Webhook URL:"
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:826
+msgid "All Stripe keys must be filled in."
+msgstr ""
+
+#: app/gateways/MeprStripeGateway.php:1136
+msgid "There was an issue with the credit card processor. Try again later."
+msgstr ""
+
+#: app/helpers/MeprAccountHelper.php:20
+msgid "Buy"
+msgstr ""
+
+#: app/helpers/MeprAccountHelper.php:28 app/lib/MeprBaseGateway.php:278
+msgid "Upgrade"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:31 app/helpers/MeprAppHelper.php:113
+#: app/models/MeprOptions.php:559 app/models/MeprOptions.php:560
+msgid "Free"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:40 app/helpers/MeprAppHelper.php:74
+#: app/helpers/MeprAppHelper.php:88 app/models/MeprSubscription.php:310
+#: app/models/MeprSubscription.php:452 app/models/MeprTransaction.php:390
+#: app/views/account/payments.php:35 app/views/account/subscriptions.php:41
+#: app/views/subscriptions/row.php:152
+#: app/views/transactions/edit_trans.php:12
+msgid "Unknown"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:70 app/views/reports/month_table.php:9
+#: app/views/reports/year_table.php:9 app/views/transactions/row.php:112
+#: app/views/transactions/trans_form.php:47
+msgid "Complete"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:115
+msgid "Free for a %1$s"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:117
+msgid "Free for %1$d %2$s"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:122 app/views/subscriptions/row.php:120
+msgid " (prorated)"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:132
+msgid "free"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:143 app/helpers/MeprAppHelper.php:148
+msgid " (proration)"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:153
+msgid "%1$s day for %2$s%3$s then "
+msgid_plural "%1$s days for %2$s%3$s then "
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/helpers/MeprAppHelper.php:165 app/helpers/MeprAppHelper.php:183
+msgid " for %1$d %2$s of access"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:168
+msgid "%1$d payment of "
+msgid_plural "%1$d payments of "
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/helpers/MeprAppHelper.php:174
+msgid "%1$s billed each %2$s"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:176
+msgid "%1$s billed every %2$d %3$s"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:187
+msgid "D, M j, Y"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:188
+msgid " for access until %s"
+msgstr ""
+
+#: app/helpers/MeprAppHelper.php:192
+msgid " with coupon %s"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:34 app/lib/MeprUtils.php:38
+msgid "Jan"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:35 app/lib/MeprUtils.php:38
+msgid "Feb"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:36 app/lib/MeprUtils.php:38
+msgid "Mar"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:37 app/lib/MeprUtils.php:38
+msgid "Apr"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:38 app/helpers/MeprReportsHelper.php:58
+#: app/lib/MeprUtils.php:38 app/lib/MeprUtils.php:42
+msgid "May"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:39 app/lib/MeprUtils.php:38
+msgid "Jun"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:40 app/lib/MeprUtils.php:38
+msgid "Jul"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:41 app/lib/MeprUtils.php:38
+msgid "Aug"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:42 app/lib/MeprUtils.php:38
+msgid "Sept"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:43 app/lib/MeprUtils.php:38
+msgid "Oct"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:44 app/lib/MeprUtils.php:38
+msgid "Nov"
+msgstr ""
+
+#: app/helpers/MeprCouponsHelper.php:45 app/lib/MeprUtils.php:38
+msgid "Dec"
+msgstr ""
+
+#: app/helpers/MeprGroupsHelper.php:51
+msgid "None / Custom"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:17
+msgid "- Auto Create New Page -"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:37 app/views/emails/options.php:16
+#: app/views/emails/options.php:17 app/views/shared/rules_meta_box.php:13
+#: app/views/shared/rules_meta_box.php:30 app/views/transactions/row.php:63
+msgid "Edit"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:38
+msgid "View"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:46
+#: app/helpers/MeprTransactionsHelper.php:31 app/models/MeprOptions.php:564
+#: app/models/MeprOptions.php:565
+msgid "Manual"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:219
+msgid "Choose the excerpt type:"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:221
+msgid "Excerpts:"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:230 app/helpers/MeprOptionsHelper.php:266
+#: app/helpers/MeprOptionsHelper.php:287 app/views/products/advanced.php:18
+#: app/views/transactions/trans_form.php:83
+msgid "Default"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:231 app/helpers/MeprOptionsHelper.php:267
+#: app/helpers/MeprOptionsHelper.php:289
+msgid "Hide"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:233
+msgid "Post Excerpt"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:234 app/helpers/MeprOptionsHelper.php:268
+#: app/helpers/MeprProductsHelper.php:29
+#: app/views/groups/style-option-dropdowns.php:19
+#: app/views/products/advanced.php:19
+msgid "Custom"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:247
+msgid "Show the first %s characters of your content"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:263
+msgid "Unauthorized Message:"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:272
+msgid "Enter your custom unauthorized message here:"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:284
+msgid "Login Form:"
+msgstr ""
+
+#: app/helpers/MeprOptionsHelper.php:288 app/views/options/form.php:257
+msgid "Show"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:12 app/views/products/form.php:52
+msgid "months"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:13 app/views/products/form.php:51
+msgid "weeks"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:24 app/views/reports/main.php:35
+msgid "Monthly"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:25 app/views/reports/main.php:36
+msgid "Yearly"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:26
+msgid "Weekly"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:27
+msgid "Every 3 Months"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:28
+msgid "Every 6 Months"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:64
+msgid "Add Benefit"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:86
+#: app/helpers/MeprProductsHelper.php:107
+msgid "who have purchased"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:121
+msgid "Everyone"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:122
+msgid "Guests"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:134
+msgid "nothing"
+msgstr ""
+
+#: app/helpers/MeprProductsHelper.php:135
+msgid "anything"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:20
+msgid "All"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:39
+msgid "Month:"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:41 app/helpers/MeprReportsHelper.php:85
+msgid "Year:"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:43 app/helpers/MeprReportsHelper.php:87
+#: app/helpers/MeprReportsHelper.php:123 app/views/update/ui.php:37
+msgid "Product:"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:46 app/helpers/MeprReportsHelper.php:90
+#: app/helpers/MeprReportsHelper.php:126
+msgid "Go"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:54 app/lib/MeprUtils.php:42
+msgid "January"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:55 app/lib/MeprUtils.php:42
+msgid "February"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:56 app/lib/MeprUtils.php:42
+msgid "March"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:57 app/lib/MeprUtils.php:42
+msgid "April"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:59 app/lib/MeprUtils.php:42
+msgid "June"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:60 app/lib/MeprUtils.php:42
+msgid "July"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:61 app/lib/MeprUtils.php:42
+msgid "August"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:62 app/lib/MeprUtils.php:42
+msgid "September"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:63 app/lib/MeprUtils.php:42
+msgid "October"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:64 app/lib/MeprUtils.php:42
+msgid "November"
+msgstr ""
+
+#: app/helpers/MeprReportsHelper.php:65 app/lib/MeprUtils.php:42
+msgid "December"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:57
+msgid "Regular Expression"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:70
+msgid "All Except IDs"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:71
+msgid ""
+"If you want to exclude all except some Pages or Posts, list their IDs here "
+"in a comma separated list. Example: 102, 32, 546"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:84
+msgid "There is not yet any content to select for this rule type."
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:98
+msgid "Begin Typing Title"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:136
+msgid "day(s)"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:137
+msgid "week(s)"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:138
+msgid "month(s)"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:139
+msgid "year(s)"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:160
+msgid "member registers"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:161
+msgid "fixed date"
+msgstr ""
+
+#: app/helpers/MeprRulesHelper.php:164 app/helpers/MeprRulesHelper.php:168
+msgid "member purchases"
+msgstr ""
+
+#: app/helpers/MeprSubscriptionsHelper.php:68
+#: app/helpers/MeprTransactionsHelper.php:37
+#: app/helpers/MeprTransactionsHelper.php:96
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: app/lib/MeprBaseEmail.php:78
+msgid "No email recipient has been set."
+msgstr ""
+
+#: app/lib/MeprBaseGateway.php:275 app/views/transactions/edit_trans.php:27
+msgid "Update"
+msgstr ""
+
+#: app/lib/MeprBaseGateway.php:284
+msgid "Are you sure you want to pause this subscription?"
+msgstr ""
+
+#: app/lib/MeprBaseGateway.php:284 app/views/subscriptions/row.php:70
+msgid "Pause"
+msgstr ""
+
+#: app/lib/MeprBaseGateway.php:288 app/views/subscriptions/row.php:73
+msgid "Resume"
+msgstr ""
+
+#: app/lib/MeprBaseGateway.php:292
+msgid "Are you sure you want to cancel this subscription?"
+msgstr ""
+
+#: app/lib/MeprBaseGateway.php:292 app/views/account/password.php:18
+#: app/views/subscriptions/row.php:80 app/views/subscriptions/row.php:177
+#: app/views/transactions/row.php:115
+msgid "Cancel"
+msgstr ""
+
+#. translators: In this string, %1$s is the Blog Name/Title and %2$s is the
+#. Name of the Payment Method
+#: app/lib/MeprBaseGateway.php:327
+msgid "[%1$s] %2$s Debug Email"
+msgstr ""
+
+#: app/lib/MeprCptModel.php:96
+msgid "The product was unable to be saved."
+msgstr ""
+
+#: app/lib/MeprEmailFactory.php:8
+msgid "Email wasn't found"
+msgstr ""
+
+#: app/lib/MeprEmailFactory.php:16
+msgid "Not a valid email"
+msgstr ""
+
+#: app/lib/MeprGatewayFactory.php:8
+msgid "Gateway wasn't found"
+msgstr ""
+
+#: app/lib/MeprGatewayFactory.php:15
+msgid "Not a valid gateway"
+msgstr ""
+
+#: app/lib/MeprLoginWidget.php:13
+msgid "Place a MemberPress Login on any page with a sidebar region"
+msgstr ""
+
+#: app/lib/MeprLoginWidget.php:83 app/views/products/price_box.php:22
+msgid "Title:"
+msgstr ""
+
+#: app/lib/MeprLoginWidget.php:88
+msgid "Use Login Redirect URL?"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:53 app/lib/MeprTransactionsTable.php:32
+msgid "Id"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:54 app/lib/MeprTransactionsTable.php:34
+msgid "Subscr Num"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:56
+msgid "Auto Rebill"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:59 app/lib/MeprTransactionsTable.php:38
+msgid "Name"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:60 app/lib/MeprTransactionsTable.php:39
+msgid "User"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:61 app/lib/MeprTransactionsTable.php:40
+msgid "Pmt Method"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:62
+msgid "Txns"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:63
+msgid "IP"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:64 app/lib/MeprTransactionsTable.php:41
+msgid "Created On"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:65 app/lib/MeprTransactionsTable.php:42
+msgid "Expires On"
+msgstr ""
+
+#: app/lib/MeprSubscriptionsTable.php:72 app/lib/MeprTransactionsTable.php:33
+msgid "Txn Num"
+msgstr ""
+
+#: app/lib/MeprTransactionsTable.php:35 app/views/account/payments.php:13
+msgid "Status"
+msgstr ""
+
+#: app/lib/MeprTransactionsTable.php:37 app/views/account/payments.php:10
+msgid "Amount"
+msgstr ""
+
+#: app/lib/MeprUtils.php:60
+msgid "Week"
+msgid_plural "Weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/lib/MeprUtils.php:64 app/views/coupons/form.php:55
+msgid "Year"
+msgid_plural "Years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/models/MeprCoupon.php:74
+msgid "None Selected"
+msgstr ""
+
+#: app/models/MeprOptions.php:116
+msgid "Welcome to %s"
+msgstr ""
+
+#: app/models/MeprOptions.php:158
+msgid "I have read and agree to the Terms Of Service"
+msgstr ""
+
+#: app/models/MeprOptions.php:182
+msgid "Address Line 1"
+msgstr ""
+
+#: app/models/MeprOptions.php:183
+msgid "Address Line 2"
+msgstr ""
+
+#: app/models/MeprOptions.php:184
+msgid "City"
+msgstr ""
+
+#: app/models/MeprOptions.php:185
+msgid "State/Province"
+msgstr ""
+
+#: app/models/MeprOptions.php:186
+msgid "Zip/Postal Code"
+msgstr ""
+
+#: app/models/MeprOptions.php:187
+msgid "Country"
+msgstr ""
+
+#: app/models/MeprOptions.php:208
+msgid "You are unauthorized to view this page."
+msgstr ""
+
+#: app/models/MeprOptions.php:351
+msgid "The Product Pages Slug must be set"
+msgstr ""
+
+#: app/models/MeprOptions.php:354
+msgid "The Group Pages Slug must be set"
+msgstr ""
+
+#: app/models/MeprOptions.php:357
+msgid "The Product Pages Slug must only contain letters, numbers and dashes."
+msgstr ""
+
+#: app/models/MeprOptions.php:360
+msgid "The Group Pages Slug must only contain letters, numbers and dashes."
+msgstr ""
+
+#: app/models/MeprOptions.php:363
+msgid "At least one Admin Email Address must be set"
+msgstr ""
+
+#: app/models/MeprOptions.php:366
+msgid ""
+"The Admin Email Address field must contain 1 or more valid email addresses"
+msgstr ""
+
+#: app/models/MeprOptions.php:421
+msgid "I have read and agree to the Terms of Service"
+msgstr ""
+
+#: app/models/MeprProduct.php:56 app/views/products/price_box.php:42
+msgid "Sign Up"
+msgstr ""
+
+#: app/models/MeprRule.php:69 test/tests/MeprRulesTest.php:136
+msgid "All Posts"
+msgstr ""
+
+#: app/models/MeprRule.php:70 test/tests/MeprRulesTest.php:133
+msgid "A Single Post"
+msgstr ""
+
+#: app/models/MeprRule.php:71
+msgid "Posts Categorized"
+msgstr ""
+
+#: app/models/MeprRule.php:72 test/tests/MeprRulesTest.php:135
+msgid "Posts Tagged"
+msgstr ""
+
+#: app/models/MeprRule.php:73 test/tests/MeprRulesTest.php:139
+msgid "All Pages"
+msgstr ""
+
+#: app/models/MeprRule.php:74 test/tests/MeprRulesTest.php:137
+msgid "A Single Page"
+msgstr ""
+
+#: app/models/MeprRule.php:75 test/tests/MeprRulesTest.php:138
+msgid "Child Pages of"
+msgstr ""
+
+#: app/models/MeprRule.php:85
+msgid "All %s"
+msgstr ""
+
+#: app/models/MeprRule.php:86
+msgid "A Single %s"
+msgstr ""
+
+#: app/models/MeprRule.php:90
+msgid "Child %s of"
+msgstr ""
+
+#: app/models/MeprRule.php:105
+msgid "All Content Tagged"
+msgstr ""
+
+#: app/models/MeprRule.php:107
+msgid "All Content Categorized"
+msgstr ""
+
+#: app/models/MeprRule.php:109
+msgid "All Content with %1$s"
+msgstr ""
+
+#: app/models/MeprRule.php:118
+msgid "%1$s Tagged"
+msgstr ""
+
+#: app/models/MeprRule.php:122
+msgid "%1$s Categorized"
+msgstr ""
+
+#: app/models/MeprRule.php:125
+msgid "%1$s with %2$s"
+msgstr ""
+
+#: app/models/MeprRule.php:129
+msgid "All Content"
+msgstr ""
+
+#: app/models/MeprRule.php:134
+msgid "Partial"
+msgstr ""
+
+#: app/models/MeprRule.php:135 test/tests/MeprRulesTest.php:140
+msgid "Custom URI"
+msgstr ""
+
+#: app/models/MeprSubscription.php:318 app/models/MeprSubscription.php:485
+msgid "Yes"
+msgstr ""
+
+#: app/models/MeprSubscription.php:318 app/models/MeprSubscription.php:485
+msgid "No"
+msgstr ""
+
+#: app/models/MeprUser.php:345
+msgid "The user was unable to be saved."
+msgstr ""
+
+#. translators: In this string, %s is the Blog Name/Title
+#: app/models/MeprUser.php:398
+msgid "[%s] Password Reset"
+msgstr ""
+
+#. translators: In this string, %1$s is the user's username, %2$s is the blog's
+#. name/title, %3$s is the blog's url, %4$s the reset password link
+#: app/models/MeprUser.php:401
+msgid ""
+"Someone requested to reset your password for %1$s on %2$s at %3$s\n"
+"\n"
+"To reset your password visit the following address, otherwise just ignore "
+"this email and nothing will happen.\n"
+"\n"
+"%4$s"
+msgstr ""
+
+#. translators: In this string, %s is the Blog Name/Title
+#: app/models/MeprUser.php:420
+msgid "[%s] Password Lost/Changed"
+msgstr ""
+
+#. translators: In this string, %1$s is the user's username
+#: app/models/MeprUser.php:423
+msgid "Password Lost and Changed for user: %1$s"
+msgstr ""
+
+#. translators: In this string, %s is the Blog Name/Title
+#: app/models/MeprUser.php:433
+msgid "[%s] Your new Password"
+msgstr ""
+
+#. translators: In this string, %1$s is the user's first name, %2$s is the
+#. blog's name/title, %3$s is the user's username, %4$s is the user's password,
+#. and %5$s is the blog's URL...
+#: app/models/MeprUser.php:436
+msgid ""
+"%1$s,\n"
+"\n"
+"Your password was successfully reset on %2$s!\n"
+"\n"
+"Username: %3$s\n"
+"Password: %4$s\n"
+"\n"
+"You can login here: %5$s"
+msgstr ""
+
+#: app/models/MeprUser.php:453 app/models/MeprUser.php:510
+msgid "You must enter both your First and Last name"
+msgstr ""
+
+#: app/models/MeprUser.php:456
+msgid "You must enter a valid email address"
+msgstr ""
+
+#: app/models/MeprUser.php:475 app/models/MeprUser.php:572
+msgid "Username must not be blank"
+msgstr ""
+
+#: app/models/MeprUser.php:478
+msgid "Username must only contain letters, numbers and/or underscores"
+msgstr ""
+
+#: app/models/MeprUser.php:481
+msgid "Username is Already Taken."
+msgstr ""
+
+#: app/models/MeprUser.php:484
+msgid "Email must be a real and properly formatted email address"
+msgstr ""
+
+#: app/models/MeprUser.php:491
+msgid ""
+"This email address has already been used. Please %sLogin%s to complete your "
+"purchase."
+msgstr ""
+
+#: app/models/MeprUser.php:495 app/models/MeprUser.php:604
+msgid "You must enter a Password."
+msgstr ""
+
+#: app/models/MeprUser.php:498 app/models/MeprUser.php:607
+msgid "You must enter a Password Confirmation."
+msgstr ""
+
+#: app/models/MeprUser.php:501 app/models/MeprUser.php:610
+msgid "Your Password and Password Confirmation don't match."
+msgstr ""
+
+#: app/models/MeprUser.php:505
+msgid "Only humans are allowed to register."
+msgstr ""
+
+#: app/models/MeprUser.php:513
+msgid "Your coupon code is invalid."
+msgstr ""
+
+#: app/models/MeprUser.php:516
+msgid "You must agree to the Terms Of Service"
+msgstr ""
+
+#: app/models/MeprUser.php:530
+msgid ""
+"There are no active Payment Methods right now ... please contact the system "
+"administrator for help."
+msgstr ""
+
+#: app/models/MeprUser.php:544
+msgid "Invalid Payment Method"
+msgstr ""
+
+#: app/models/MeprUser.php:576
+msgid "Your username or password was incorrect"
+msgstr ""
+
+#: app/models/MeprUser.php:586
+msgid "You must enter a Username or Email"
+msgstr ""
+
+#: app/models/MeprUser.php:593
+msgid "That Username or Email wasn't found."
+msgstr ""
+
+#: app/models/MeprUser.php:811
+msgid "<br/>%1$s<br/>%2$s, %3$s %4$s%5$s<br/>"
+msgstr ""
+
+#: app/views/about/1-1-0.php:2
+msgid "Welcome to MemberPress 1.1.0"
+msgstr ""
+
+#: app/views/about/1-1-0.php:3
+msgid ""
+"There are a ton of new features and bug fixes that have been added in our "
+"1.1.0 release."
+msgstr ""
+
+#: app/views/about/1-1-0.php:5
+msgid ""
+"To get the most out of the new, powerful features in MemberPress 1.1.0, we "
+"recomend you %slearn more about it on our website%s."
+msgstr ""
+
+#: app/views/about/1-1-0.php:7
+msgid ""
+"Because this is such a significant upgrade, you should also %scheck your "
+"MemberPress Options%s to ensure that everything's peachy."
+msgstr ""
+
+#: app/views/account/home.php:11
+msgid "Your account has been saved."
+msgstr ""
+
+#: app/views/account/home.php:18 app/views/shared/logged_in_purchases.php:40
+#: app/views/shared/signup_form.php:40
+msgid "First Name:"
+msgstr ""
+
+#: app/views/account/home.php:20
+msgid "Change Password"
+msgstr ""
+
+#: app/views/account/home.php:23 app/views/shared/logged_in_purchases.php:44
+#: app/views/shared/signup_form.php:44
+msgid "Last Name:"
+msgstr ""
+
+#: app/views/account/home.php:100
+msgid "Save Profile"
+msgstr ""
+
+#: app/views/account/home.php:107 app/views/shared/signup_form.php:167
+msgid "* Required field"
+msgstr ""
+
+#: app/views/account/nav.php:5
+msgid "Home"
+msgstr ""
+
+#: app/views/account/nav.php:10 app/views/options/form.php:15
+msgid "Payments"
+msgstr ""
+
+#: app/views/account/nav.php:20
+msgid ""
+"You have a problem with one or more of your subscriptions. To prevent any "
+"lapses in your subscriptions please visit your %sSubscriptions%s page to "
+"update them."
+msgstr ""
+
+#: app/views/account/password.php:6
+msgid "Your password has been updated."
+msgstr ""
+
+#: app/views/account/password.php:8
+msgid ""
+"Password update failed, please be sure your passwords match and try again."
+msgstr ""
+
+#: app/views/account/password.php:12
+msgid "New Password"
+msgstr ""
+
+#: app/views/account/password.php:15
+msgid "Confirm New Password"
+msgstr ""
+
+#: app/views/account/password.php:18
+msgid "Update Password"
+msgstr ""
+
+#: app/views/account/password.php:18
+msgid "or"
+msgstr ""
+
+#: app/views/account/payments.php:12
+msgid "Method"
+msgstr ""
+
+#: app/views/account/payments.php:14
+msgid "Invoice"
+msgstr ""
+
+#: app/views/account/payments.php:45 app/views/account/subscriptions.php:97
+msgid "Previous Page"
+msgstr ""
+
+#: app/views/account/payments.php:47 app/views/account/subscriptions.php:99
+msgid "Next Page"
+msgstr ""
+
+#: app/views/account/payments.php:53
+msgid "You have no completed payments to display."
+msgstr ""
+
+#: app/views/account/subscriptions.php:17
+msgid "Card Exp"
+msgstr ""
+
+#: app/views/account/subscriptions.php:65 app/views/products/form.php:38
+#: app/views/transactions/trans_form.php:83
+msgid "Lifetime"
+msgstr ""
+
+#: app/views/account/subscriptions.php:73
+msgid "Next Billing: %s"
+msgstr ""
+
+#: app/views/account/subscriptions.php:84
+msgid "%1$02d-%2$d"
+msgstr ""
+
+#: app/views/account/subscriptions.php:105
+msgid "You have no active subscriptions to display."
+msgstr ""
+
+#: app/views/coupons/form.php:12
+msgid "Discount:"
+msgstr ""
+
+#: app/views/coupons/form.php:19
+msgid "Coupon Discount"
+msgstr ""
+
+#: app/views/coupons/form.php:20
+msgid ""
+"<b>Recurring Products</b>: This discount will not apply to paid trials but "
+"will apply to all recurring transactions associated with the subscription."
+"<br/><br/><b>Lifetime Products</b>: This discount will apply directly to the "
+"lifetime product's one-time payment."
+msgstr ""
+
+#: app/views/coupons/form.php:25
+msgid "This coupon can be used %s times."
+msgstr ""
+
+#: app/views/coupons/form.php:28
+msgid "Number of Coupon Uses"
+msgstr ""
+
+#: app/views/coupons/form.php:29
+msgid ""
+"This determines the number of times this coupon can be used by individual "
+"customers ... it does not indicate how many recurrances it will be used on."
+"<br/><br/>Set to \"0\" for an infinite number of uses."
+msgstr ""
+
+#: app/views/coupons/form.php:35
+msgid "Override Trial Period"
+msgstr ""
+
+#: app/views/coupons/form.php:37
+msgid "Coupon Override Trial Settings"
+msgstr ""
+
+#: app/views/coupons/form.php:38
+msgid ""
+"<b>Recurring Products</b>: When this coupon is used, if the product already "
+"has a trial then this will replace it ... if the product doesn't have a "
+"trial then this trial will be used.<br/><br/><b>Lifetime Products</b>: "
+"Because trials aren't available for lifetime products, these settings will "
+"be ignored when this coupon code is used with them."
+msgstr ""
+
+#: app/views/coupons/form.php:41
+msgid "# of Days:"
+msgstr ""
+
+#: app/views/coupons/form.php:42
+msgid "Trial Cost:"
+msgstr ""
+
+#: app/views/coupons/form.php:47
+msgid "Coupon expiration"
+msgstr ""
+
+#: app/views/coupons/form.php:60
+msgid "Apply coupon to the following Products:"
+msgstr ""
+
+#: app/views/coupons/form.php:62 app/views/rules/form.php:22
+msgid ""
+"Hold the Control Key (Command Key on the Mac) in order to select or deselect "
+"multiple products"
+msgstr ""
+
+#: app/views/coupons/form.php:67 app/views/coupons/form.php:76
+msgid "Save Coupon"
+msgstr ""
+
+#: app/views/coupons/form.php:68 app/views/coupons/form.php:77
+msgid "Coupon Saved"
+msgstr ""
+
+#: app/views/coupons/form.php:74
+msgid "You cannot create coupons until you have added at least 1 Product."
+msgstr ""
+
+#: app/views/emails/options.php:8
+msgid "Send %s"
+msgstr ""
+
+#: app/views/emails/options.php:17
+msgid "Hide Editor"
+msgstr ""
+
+#: app/views/emails/options.php:24
+msgid "Send Test"
+msgstr ""
+
+#: app/views/emails/options.php:31
+msgid "Reset to Default"
+msgstr ""
+
+#: app/views/emails/options.php:32 app/views/subscriptions/row.php:55
+#: app/views/transactions/row.php:61 app/views/update/edge_updates.php:3
+#: app/views/users/extra_profile_fields.php:86
+msgid "Loading..."
+msgstr ""
+
+#: app/views/emails/options.php:37
+msgid "Subject"
+msgstr ""
+
+#: app/views/emails/options.php:41
+msgid "Body"
+msgstr ""
+
+#: app/views/emails/options.php:55
+msgid "Insert &uarr;"
+msgstr ""
+
+#: app/views/emails/options.php:63
+msgid "Use default template"
+msgstr ""
+
+#: app/views/emails/options.php:65
+msgid "Default Email Template"
+msgstr ""
+
+#: app/views/emails/options.php:66
+msgid ""
+"When this is checked the body of this email will be wrapped in the default "
+"email template."
+msgstr ""
+
+#: app/views/groups/custom_page_template_form.php:5
+#: app/views/products/custom_page_template_form.php:5
+msgid "Use Custom Page Template"
+msgstr ""
+
+#: app/views/groups/form.php:5
+msgid "This group is a product upgrade path"
+msgstr ""
+
+#: app/views/groups/form.php:8
+msgid "Upgrade Path"
+msgstr ""
+
+#: app/views/groups/form.php:9
+msgid ""
+"Enabling this will mean that users can only be subscribed to one of these "
+"products at a time. If un-checked, users may be subscribed to each of these "
+"products simultaneously."
+msgstr ""
+
+#: app/views/groups/form.php:14
+msgid "Products:"
+msgstr ""
+
+#: app/views/groups/form.php:18
+msgid "Here you can add/remove products from this group pricing page."
+msgstr ""
+
+#: app/views/groups/form.php:24
+msgid "Add Product"
+msgstr ""
+
+#: app/views/groups/form.php:36 app/views/groups/form.php:39
+msgid "Disable Pricing Page"
+msgstr ""
+
+#: app/views/groups/form.php:40
+msgid ""
+"This will disable the pricing page from being accessed on the front end of "
+"your site. It will return a 404 (not found) page if a user attempts to "
+"access it."
+msgstr ""
+
+#: app/views/groups/form.php:45
+msgid "Pricing Page Theme:"
+msgstr ""
+
+#: app/views/groups/form.php:50
+msgid "Custom Button CSS classes (optional):"
+msgstr ""
+
+#: app/views/groups/form.php:54
+msgid "Custom Highlighted Button CSS classes (optional):"
+msgstr ""
+
+#: app/views/groups/form.php:58
+msgid "Custom Disabled Button CSS classes (optional):"
+msgstr ""
+
+#: app/views/groups/form.php:63
+msgid "Group Price Boxes Shortcodes"
+msgstr ""
+
+#: app/views/groups/form.php:66
+msgid "Manually place group price boxes"
+msgstr ""
+
+#: app/views/groups/form.php:67
+msgid ""
+"By default MemberPress will append the pricing boxes to the end of the Group "
+"page.<br/><br/>If you'd like to show them in a different place on the group "
+"page or some other page on this site just copy and paste a shortcode where "
+"you'd like the price boxes for this group to appear."
+msgstr ""
+
+#: app/views/groups/form.php:70
+msgid "Shortcode to be used on this group page."
+msgstr ""
+
+#: app/views/groups/form.php:72
+msgid ""
+"Shortcode which can be used on any other WordPress page, post or custom post "
+"type."
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:4
+msgid "Style & Layout:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:8
+msgid "Layout:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:13
+msgid "Horizontal"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:16
+msgid "Vertical"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:24
+msgid "Font Style:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:29
+#: app/views/groups/style-option-dropdowns.php:73
+msgid "Site Default"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:32
+msgid "Arial"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:35
+msgid "Times"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:38
+msgid "Verdana"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:46
+msgid "Style:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:51
+#: app/views/groups/style-option-dropdowns.php:111
+msgid "Gray (default)"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:54
+#: app/views/groups/style-option-dropdowns.php:114
+msgid "Orange"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:57
+#: app/views/groups/style-option-dropdowns.php:117
+msgid "Blue"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:60
+#: app/views/groups/style-option-dropdowns.php:120
+msgid "Red"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:63
+#: app/views/groups/style-option-dropdowns.php:123
+msgid "Green"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:68
+msgid "Font Size:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:76
+#: app/views/groups/style-option-dropdowns.php:101
+msgid "Small"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:79
+#: app/views/groups/style-option-dropdowns.php:95
+msgid "Medium"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:82
+#: app/views/groups/style-option-dropdowns.php:98
+msgid "Large"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:90
+msgid "Button Size:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:106
+msgid "Button Color:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:131
+msgid "Bullet Style:"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:136
+msgid "Circles"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:139
+msgid "Discs"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:142
+msgid "Squares"
+msgstr ""
+
+#: app/views/groups/style-option-dropdowns.php:145
+msgid "Check Marks"
+msgstr ""
+
+#: app/views/help/ui.php:15
+msgid "MemberPress Quick Helps"
+msgstr ""
+
+#: app/views/help/ui.php:16
+msgid ""
+"Here are a few videos from our user manual on basic topics within "
+"MemberPress."
+msgstr ""
+
+#: app/views/help/ui.php:17
+msgid "Check out our full %1$sUser Manual%2$s here!"
+msgstr ""
+
+#: app/views/help/ui.php:19
+msgid "Setting Up Paypal"
+msgstr ""
+
+#: app/views/help/ui.php:22
+msgid "Setting Up Stripe"
+msgstr ""
+
+#: app/views/help/ui.php:25
+msgid "Setting Up Authorize.net"
+msgstr ""
+
+#: app/views/help/ui.php:28
+msgid "Options Overview"
+msgstr ""
+
+#: app/views/options/custom_fields_row.php:53
+msgid "mepr_none"
+msgstr ""
+
+#: app/views/options/custom_fields_row.php:57
+msgid "Slug"
+msgstr ""
+
+#: app/views/options/custom_fields_row.php:58
+msgid ""
+"The slug is a unique key used to store these custom fields in the usermeta "
+"database table used by WordPress. The slug is auto-generated when you save "
+"the Options. As of version 1.1.0 all new slugs are prefixed with \"mepr_\", "
+"this does not apply to fields created before 1.1.0."
+msgstr ""
+
+#: app/views/options/custom_fields_row.php:59
+msgid "Slug:"
+msgstr ""
+
+#: app/views/options/form.php:5
+msgid "User Manual"
+msgstr ""
+
+#: app/views/options/form.php:14
+msgid "Fields"
+msgstr ""
+
+#: app/views/options/form.php:16
+msgid "Emails"
+msgstr ""
+
+#: app/views/options/form.php:17
+msgid "Marketing"
+msgstr ""
+
+#: app/views/options/form.php:18
+msgid "General"
+msgstr ""
+
+#: app/views/options/form.php:23
+msgid "MemberPress Reserved Pages"
+msgstr ""
+
+#: app/views/options/form.php:26
+msgid "MemberPress Thank You Page"
+msgstr ""
+
+#: app/views/options/form.php:27
+msgid "Thank You"
+msgstr ""
+
+#: app/views/options/form.php:30
+msgid "MemberPress Account Page"
+msgstr ""
+
+#: app/views/options/form.php:34
+msgid "MemberPress Login Page"
+msgstr ""
+
+#: app/views/options/form.php:40
+msgid "Group and Product Pages Slugs:"
+msgstr ""
+
+#: app/views/options/form.php:42
+msgid "Group and Product Pages Slugs"
+msgstr ""
+
+#: app/views/options/form.php:43
+msgid ""
+"Use these fields to customize the base slug of urls for your groups and "
+"products."
+msgstr ""
+
+#: app/views/options/form.php:44
+msgid ""
+"Note: It isn't recommended that you change these values if you already have "
+"existing groups and product pages on a production membership site because "
+"all your urls for them will change (WordPress will attempt to redirect from "
+"old urls to new urls)."
+msgstr ""
+
+#: app/views/options/form.php:49
+msgid "Group Pages Slug:"
+msgstr ""
+
+#: app/views/options/form.php:55
+msgid "Product Pages Slug:"
+msgstr ""
+
+#: app/views/options/form.php:66
+msgid "Redirect unauthorized visitors to a specific URL"
+msgstr ""
+
+#: app/views/options/form.php:68
+msgid "Redirect Unauthorized Access"
+msgstr ""
+
+#: app/views/options/form.php:69
+msgid ""
+"MemberPress allows you to handle unauthorized access by replacing the "
+"content on page or via a redirection to a specific url.<br/><br/>When this "
+"is checked, unauthorized visits will be redirected to a url otherwise the "
+"unauthorized message will appear on page."
+msgstr ""
+
+#: app/views/options/form.php:73
+msgid "Redirect non-singular views:"
+msgstr ""
+
+#: app/views/options/form.php:75
+msgid "Redirect Non-Singular Views"
+msgstr ""
+
+#: app/views/options/form.php:76
+msgid ""
+"If any post in a non-singular view (EX: Blog page, category pages, archive "
+"pages etc) is protected, then do not allow the unauthorized members to see "
+"this non-singular view at all."
+msgstr ""
+
+#: app/views/options/form.php:78
+msgid "URL to direct unauthorized visitors to:"
+msgstr ""
+
+#: app/views/options/form.php:80
+msgid "Unauthorized Redirection URL"
+msgstr ""
+
+#: app/views/options/form.php:81
+msgid ""
+"This is the URL that visitors will be redirected to when trying to access "
+"unauthorized content."
+msgstr ""
+
+#: app/views/options/form.php:84
+msgid ""
+"You can use the <strong>[mepr-unauthorized-message]</strong> shortcode on "
+"this unauthorized page (assuming this url points to a page on this site)."
+msgstr ""
+
+#: app/views/options/form.php:89
+msgid "Show an excerpt to unauthorized visitors"
+msgstr ""
+
+#: app/views/options/form.php:106
+msgid "Show a login form on pages containing unauthorized content"
+msgstr ""
+
+#: app/views/options/form.php:111
+msgid "Default Unauthorized Message:"
+msgstr ""
+
+#: app/views/options/form.php:113
+msgid "Default Unauthorized Message"
+msgstr ""
+
+#: app/views/options/form.php:114
+msgid ""
+"This is the default message that will show up when a user is not allowed to "
+"access the content on a page."
+msgstr ""
+
+#: app/views/options/form.php:123
+msgid "Permissions:"
+msgstr ""
+
+#: app/views/options/form.php:129
+msgid "Disable the WordPress admin bar for members"
+msgstr ""
+
+#: app/views/options/form.php:135
+msgid "Keep members out of the WordPress Dashboard"
+msgstr ""
+
+#: app/views/options/form.php:143
+msgid "Allow Members to Cancel their own subscriptions"
+msgstr ""
+
+#: app/views/options/form.php:150
+msgid "Allow Members to Pause &amp; Resume their own subscriptions"
+msgstr ""
+
+#: app/views/options/form.php:152
+msgid "Pausing &amp; Resuming Subscriptions"
+msgstr ""
+
+#: app/views/options/form.php:153
+msgid ""
+"This option will only be available if this is enabled and the user purchased "
+"their subsciption using PayPal or Stripe."
+msgstr ""
+
+#: app/views/options/form.php:160
+msgid "Registration:"
+msgstr ""
+
+#: app/views/options/form.php:166
+msgid "Disable the standard WordPress registration form"
+msgstr ""
+
+#: app/views/options/form.php:172
+msgid "Enable Coupon Field on product registration forms"
+msgstr ""
+
+#: app/views/options/form.php:180
+msgid "Members must use their email address for their Username"
+msgstr ""
+
+#: app/views/options/form.php:186
+msgid "Pro-rate subscription prices when a member upgrades"
+msgstr ""
+
+#: app/views/options/form.php:194
+msgid "Require Terms of Service on product registration forms"
+msgstr ""
+
+#: app/views/options/form.php:201
+msgid "URL to your Terms of Service page:"
+msgstr ""
+
+#: app/views/options/form.php:209
+msgid "Terms of Service Checkbox Title:"
+msgstr ""
+
+#: app/views/options/form.php:218
+msgid "Login & Logout:"
+msgstr ""
+
+#: app/views/options/form.php:222
+msgid "Force WordPress to use the MemberPress login page"
+msgstr ""
+
+#: app/views/options/form.php:225
+msgid "Force Login Page URL"
+msgstr ""
+
+#: app/views/options/form.php:226
+msgid ""
+"Use this option to override WordPress links to /wp-login.php and instead use "
+"the Login page you have specified for MemberPress. If you have other plugins "
+"that use their own Login pages too you may want to leave this option "
+"disabled."
+msgstr ""
+
+#: app/views/options/form.php:228
+msgid "URL to direct member to after login:"
+msgstr ""
+
+#: app/views/options/form.php:230
+msgid "Login Redirect URL"
+msgstr ""
+
+#: app/views/options/form.php:231
+msgid ""
+"For this to work you must have the Login page set in the MemberPress "
+"options. You can also override this option on a per-product basis in the "
+"Advanced box when creating/editing a Product."
+msgstr ""
+
+#: app/views/options/form.php:233
+msgid "URL to direct member to after logout:"
+msgstr ""
+
+#: app/views/options/form.php:235
+msgid "Logout Redirect URL"
+msgstr ""
+
+#: app/views/options/form.php:236
+msgid ""
+"Set what URL you want the member to be taken to when they logout on your "
+"site. This setting applies to Administrators as well."
+msgstr ""
+
+#: app/views/options/form.php:240
+msgid "Account Page Welcome Message"
+msgstr ""
+
+#: app/views/options/form.php:243
+msgid "This text will appear below the navigation on the Account Page."
+msgstr ""
+
+#: app/views/options/form.php:248
+msgid "Extended User Information Fields:"
+msgstr ""
+
+#: app/views/options/form.php:252
+msgid "Name Fields:"
+msgstr ""
+
+#: app/views/options/form.php:263
+msgid "Require"
+msgstr ""
+
+#: app/views/options/form.php:269
+msgid "Show & Require Address Fields:"
+msgstr ""
+
+#: app/views/options/form.php:274
+msgid "New Customers"
+msgstr ""
+
+#: app/views/options/form.php:280
+msgid "Logged-in Users"
+msgstr ""
+
+#: app/views/options/form.php:286
+msgid "Custom User Information Fields:"
+msgstr ""
+
+#: app/views/options/form.php:288
+msgid "Custom User Information Fields"
+msgstr ""
+
+#: app/views/options/form.php:289
+msgid ""
+"You can specify custom fields to be used with your users' account. Just "
+"click the 'plus' button below to add your first field."
+msgstr ""
+
+#: app/views/options/form.php:293
+msgid "Add new Custom Field"
+msgstr ""
+
+#: app/views/options/form.php:299
+msgid "Payment Methods"
+msgstr ""
+
+#: app/views/options/form.php:309
+msgid "Add a Payment Method"
+msgstr ""
+
+#: app/views/options/form.php:317
+msgid "Send Mail From"
+msgstr ""
+
+#: app/views/options/form.php:319
+msgid "From Name:"
+msgstr ""
+
+#: app/views/options/form.php:322
+msgid "From Email:"
+msgstr ""
+
+#: app/views/options/form.php:325 app/views/options/form.php:327
+msgid "Member Notices"
+msgstr ""
+
+#: app/views/options/form.php:328
+msgid ""
+"These are notices that will be sent to your members when events happen in "
+"MemberPress."
+msgstr ""
+
+#: app/views/options/form.php:333
+msgid "Admin Emails &amp; Notices"
+msgstr ""
+
+#: app/views/options/form.php:335
+msgid "Admin Notices"
+msgstr ""
+
+#: app/views/options/form.php:336
+msgid ""
+"These are notices that will be sent to the addresses you've set below when "
+"events happen in MemberPress."
+msgstr ""
+
+#: app/views/options/form.php:339
+msgid "Admin Email Addresses:"
+msgstr ""
+
+#: app/views/options/form.php:341
+msgid "Notification Email Addresses"
+msgstr ""
+
+#: app/views/options/form.php:342
+msgid ""
+"This is a comma separated list of email addresses that will recieve admin "
+"notifications. This defaults to your admin email set in \"Settings\" -> "
+"\"General\" -> \"E-mail Address\""
+msgstr ""
+
+#: app/views/options/form.php:352
+msgid "Auto Responders"
+msgstr ""
+
+#: app/views/options/form.php:359
+msgid "Internationalization"
+msgstr ""
+
+#: app/views/options/form.php:364
+msgid "Language Code:"
+msgstr ""
+
+#: app/views/options/form.php:372
+msgid "Currency Code:"
+msgstr ""
+
+#: app/views/options/form.php:380
+msgid "Currency Symbol:"
+msgstr ""
+
+#: app/views/options/form.php:389
+msgid "Rewrite Rules"
+msgstr ""
+
+#: app/views/options/form.php:392
+msgid "Disable mod_rewrite (.htaccess) Rules"
+msgstr ""
+
+#: app/views/options/form.php:394
+msgid "Disable mod_rewrite Rules"
+msgstr ""
+
+#: app/views/options/form.php:395
+msgid ""
+"If you are having problems getting other 3rd party applications such as "
+"phpBB or phpList to work along side MemberPress, you may need to check this "
+"option. Disabling mod_rewrite will mean that individual files cannot be "
+"protected with the Custom URI Rules."
+msgstr ""
+
+#: app/views/options/form.php:404
+msgid "Update Options"
+msgstr ""
+
+#: app/views/options/gateway.php:12 app/views/transactions/trans_form.php:57
+msgid "Gateway:"
+msgstr ""
+
+#: app/views/options/gateway.php:23
+msgid "Label:"
+msgstr ""
+
+#: app/views/options/options_saved.php:2
+msgid "Options saved."
+msgstr ""
+
+#: app/views/products/advanced.php:5 app/views/products/advanced.php:7
+msgid "Product Access URL"
+msgstr ""
+
+#: app/views/products/advanced.php:8
+msgid ""
+"This is the URL where those who purchase this product can get the content "
+"they now have access to."
+msgstr ""
+
+#: app/views/products/advanced.php:8
+msgid ""
+"When set, the Product Access URL will make this product name clickable when "
+"a member views their Subscriptions/Payments tabs on the Account page."
+msgstr ""
+
+#: app/views/products/advanced.php:16
+msgid "Registration Pricing Terms:"
+msgstr ""
+
+#: app/views/products/advanced.php:20
+msgid "Hidden"
+msgstr ""
+
+#: app/views/products/advanced.php:24
+msgid "Registration Pricing Terms"
+msgstr ""
+
+#: app/views/products/advanced.php:25
+msgid ""
+"By default MemberPress will automatically generate the pricing terms for you "
+"on the product registration page. But in some cases you'll want to either "
+"present custom text for the terms ... or hide it alltogether."
+msgstr ""
+
+#: app/views/products/advanced.php:26
+msgid ""
+"This will allow you to customize the pricing terms on the <b>Registration "
+"Page</b> for this product. Here's a description of these options:"
+msgstr ""
+
+#: app/views/products/advanced.php:27
+msgid ""
+"<b>Default:</b> This will enable the system-generated product terms on the "
+"Registration form for this product."
+msgstr ""
+
+#: app/views/products/advanced.php:28
+msgid ""
+"<b>Custom:</b> This will enable you to enter your own description for your "
+"product terms on the Registration form for this product."
+msgstr ""
+
+#: app/views/products/advanced.php:29
+msgid ""
+"<b>Hidden:</b> This will hide the product terms on the Registration page."
+msgstr ""
+
+#: app/views/products/advanced.php:34
+msgid "Custom Registration Pricing Terms:"
+msgstr ""
+
+#: app/views/products/advanced.php:41 app/views/products/advanced.php:44
+msgid "Custom Login Redirect URLs"
+msgstr ""
+
+#: app/views/products/advanced.php:45
+msgid ""
+"By default MemberPress will redirect members to the page setup in options. "
+"This will allow you to override that default behavior and customize it any "
+"way you want."
+msgstr ""
+
+#: app/views/products/advanced.php:50 app/views/products/advanced.php:54
+msgid "Default Login Redirect URL"
+msgstr ""
+
+#: app/views/products/advanced.php:55
+msgid ""
+"If the member logging in has an active Subscription to this Product and none "
+"of the custom URLs below apply, they will be redirected to this URL after "
+"logging in."
+msgstr ""
+
+#: app/views/products/advanced.php:55
+msgid ""
+"Note: This overrides the Login Redirect URL setting in the MemberPress "
+"Options. Leave this option blank to use the Login Redirect URL in the "
+"MemberPress Options instead."
+msgstr ""
+
+#: app/views/products/advanced.php:58 app/views/products/advanced.php:61
+msgid "Add Custom Login Redirect URLs"
+msgstr ""
+
+#: app/views/products/advanced.php:62
+msgid ""
+"This allows you to redirect a user to different URLs based on how many times "
+"they have already logged in. So for example, if you wanted to show upsell "
+"pages to members on their 3rd and 6th logins, you can do that by setting the "
+"URL to send the member to when they login for the 3rd time and again on the "
+"6th time."
+msgstr ""
+
+#: app/views/products/advanced.php:72 app/views/products/advanced.php:87
+msgid "Login #"
+msgstr ""
+
+#: app/views/products/advanced.php:76 app/views/products/advanced.php:91
+msgid "Remove URL"
+msgstr ""
+
+#: app/views/products/advanced.php:99
+msgid "Add URL"
+msgstr ""
+
+#: app/views/products/form.php:9 app/views/shared/logged_in_purchases.php:11
+#: app/views/shared/signup_form.php:9
+msgid "Price:"
+msgstr ""
+
+#: app/views/products/form.php:13
+msgid "Billing Type:"
+msgstr ""
+
+#: app/views/products/form.php:16
+msgid "Recurring"
+msgstr ""
+
+#: app/views/products/form.php:17
+msgid "One-Time"
+msgstr ""
+
+#: app/views/products/form.php:35
+msgid "Access:"
+msgstr ""
+
+#: app/views/products/form.php:39
+msgid "Expire"
+msgstr ""
+
+#: app/views/products/form.php:40
+msgid "Fixed Expire"
+msgstr ""
+
+#: app/views/products/form.php:43 app/views/rules/drip-form.php:12
+#: app/views/rules/drip-form.php:23
+msgid "after"
+msgstr ""
+
+#: app/views/products/form.php:50
+msgid "days"
+msgstr ""
+
+#: app/views/products/form.php:53
+msgid "years"
+msgstr ""
+
+#: app/views/products/form.php:57
+msgid "on"
+msgstr ""
+
+#: app/views/products/form.php:73
+msgid "Interval:"
+msgstr ""
+
+#: app/views/products/form.php:89
+msgid "Trial Period"
+msgstr ""
+
+#: app/views/products/form.php:90
+msgid "Price must be greater than 0.00 to choose recurring subscriptions."
+msgstr ""
+
+#: app/views/products/form.php:93
+msgid "days for"
+msgstr ""
+
+#: app/views/products/form.php:99
+msgid "Limit Payment Cycles"
+msgstr ""
+
+#: app/views/products/form.php:102
+msgid "<b>Limit to</b> %s <b>payments</b>"
+msgstr ""
+
+#: app/views/products/form.php:107
+msgid "Expire Access"
+msgstr ""
+
+#: app/views/products/form.php:108
+msgid "Lifetime Acess"
+msgstr ""
+
+#: app/views/products/form.php:110
+msgid "on last cycle"
+msgstr ""
+
+#: app/views/products/permissions.php:6
+msgid "Allow users to create multiple, active subscriptions to this product"
+msgstr ""
+
+#: app/views/products/permissions.php:10
+msgid "Who can purchase this Product"
+msgstr ""
+
+#: app/views/products/price_box.php:5
+msgid "Preview"
+msgstr ""
+
+#: app/views/products/price_box.php:11
+msgid "Highlighted"
+msgstr ""
+
+#: app/views/products/price_box.php:14
+msgid "Highlight"
+msgstr ""
+
+#: app/views/products/price_box.php:15
+msgid ""
+"<strong>Highlighted:</strong> Make this a Highlighted option on the Group "
+"Pricing Page. This makes it stand-out from the other listed products."
+msgstr ""
+
+#: app/views/products/price_box.php:19
+msgid "Show Price"
+msgstr ""
+
+#: app/views/products/price_box.php:26
+msgid "Heading Text:"
+msgstr ""
+
+#: app/views/products/price_box.php:30
+msgid "Benefits:"
+msgstr ""
+
+#: app/views/products/price_box.php:37
+msgid "Footer Text:"
+msgstr ""
+
+#: app/views/products/price_box.php:41
+msgid "Button Text:"
+msgstr ""
+
+#: app/views/products/product_options_meta_box.php:4
+msgid "Registration"
+msgstr ""
+
+#: app/views/products/product_options_meta_box.php:5
+msgid "Permissions"
+msgstr ""
+
+#: app/views/products/product_options_meta_box.php:6
+msgid "Price Box"
+msgstr ""
+
+#: app/views/products/product_options_meta_box.php:7
+msgid "Advanced"
+msgstr ""
+
+#: app/views/products/registration.php:5
+msgid "Registration Button Text:"
+msgstr ""
+
+#: app/views/products/registration.php:10
+msgid "Enable custom thank you page message"
+msgstr ""
+
+#: app/views/products/registration.php:13
+msgid "Enable Custom Thank You Page Message"
+msgstr ""
+
+#: app/views/products/registration.php:14
+msgid ""
+"Enabling this option will reveal a new Compose form which you can use to "
+"provide a custom message to show on the Thank You page after a member "
+"purchases this product."
+msgstr ""
+
+#: app/views/products/registration.php:28
+#: app/views/products/registration.php:31
+msgid "Customize Payment Methods"
+msgstr ""
+
+#: app/views/products/registration.php:32
+msgid ""
+"Enabling this option will reveal a drag and drop list of the available "
+"payment methods. You can use this to re-order or even hide payment methods "
+"from the dropdown on this product registration page."
+msgstr ""
+
+#: app/views/products/registration.php:35
+msgid "Active Payment Methods"
+msgstr ""
+
+#: app/views/products/registration.php:45
+msgid ""
+"No Payment Methods were found. Please go to the options page to configure "
+"some."
+msgstr ""
+
+#: app/views/products/registration.php:64
+msgid "Inactive Payment Methods"
+msgstr ""
+
+#: app/views/products/registration.php:84
+msgid "Product Shortcodes"
+msgstr ""
+
+#: app/views/products/registration.php:86
+msgid ""
+"You can use this shortcode anywhere on your site to quickly display a link "
+"to this product page. If the text inbetween the shortcode is not present, "
+"MemberPress will use the product title as the link text instead."
+msgstr ""
+
+#: app/views/products/registration.php:87
+msgid "Optional link label here..."
+msgstr ""
+
+#: app/views/products/registration.php:88
+msgid ""
+"Shortcode to be used on this product page to manually place the registration "
+"form."
+msgstr ""
+
+#: app/views/products/registration.php:90
+msgid ""
+"Shortcode which can be used on any other WordPress page, post or custom post "
+"type to manually place the registration form for this product."
+msgstr ""
+
+#: app/views/reports/all-time_info_blocks.php:4
+#: app/views/reports/month_info_blocks.php:4
+#: app/views/reports/year_info_blocks.php:4
+#: app/views/widgets/admin_stats_widget.php:10
+msgid "Pending Transactions"
+msgstr ""
+
+#: app/views/reports/all-time_info_blocks.php:9
+#: app/views/reports/month_info_blocks.php:9
+#: app/views/reports/year_info_blocks.php:9
+#: app/views/widgets/admin_stats_widget.php:15
+msgid "Failed Transactions"
+msgstr ""
+
+#: app/views/reports/all-time_info_blocks.php:14
+#: app/views/reports/month_info_blocks.php:14
+#: app/views/reports/year_info_blocks.php:14
+#: app/views/widgets/admin_stats_widget.php:20
+msgid "Refunded Transactions"
+msgstr ""
+
+#: app/views/reports/all-time_info_blocks.php:19
+#: app/views/reports/month_info_blocks.php:19
+#: app/views/reports/year_info_blocks.php:19
+#: app/views/widgets/admin_stats_widget.php:25
+msgid "Completed Transactions"
+msgstr ""
+
+#: app/views/reports/all-time_info_blocks.php:24
+#: app/views/reports/month_info_blocks.php:24
+#: app/views/reports/year_info_blocks.php:24
+#: app/views/widgets/admin_stats_widget.php:30
+msgid "Amount Collected"
+msgstr ""
+
+#: app/views/reports/all-time_info_blocks.php:29
+#: app/views/reports/month_info_blocks.php:29
+#: app/views/reports/year_info_blocks.php:29
+#: app/views/widgets/admin_stats_widget.php:35
+msgid "Amount Refunded"
+msgstr ""
+
+#: app/views/reports/all-time_info_blocks.php:34
+#: app/views/reports/month_info_blocks.php:34
+#: app/views/reports/year_info_blocks.php:34
+#: app/views/widgets/admin_stats_widget.php:40
+msgid "Total Income"
+msgstr ""
+
+#: app/views/reports/main.php:9
+msgid "Active Members"
+msgstr ""
+
+#: app/views/reports/main.php:14
+msgid "Inactive Members"
+msgstr ""
+
+#: app/views/reports/main.php:19
+msgid "Total Members"
+msgstr ""
+
+#: app/views/reports/main.php:24
+msgid "Active Free Members"
+msgstr ""
+
+#: app/views/reports/main.php:29
+msgid "Avg Lifetime Value"
+msgstr ""
+
+#: app/views/reports/main.php:37
+msgid "All-Time"
+msgstr ""
+
+#: app/views/reports/main.php:60 app/views/reports/main.php:98
+msgid "Amounts"
+msgstr ""
+
+#: app/views/reports/main.php:139
+msgid "Total Transactions By Product"
+msgstr ""
+
+#: app/views/reports/main.php:140
+msgid "Amounts By Day Of Month"
+msgstr ""
+
+#: app/views/reports/main.php:141
+msgid "Transactions By Day Of Month"
+msgstr ""
+
+#: app/views/reports/main.php:142
+msgid "Day Of Month"
+msgstr ""
+
+#: app/views/reports/main.php:143
+msgid "Amounts By Month Of Year"
+msgstr ""
+
+#: app/views/reports/main.php:144
+msgid "Transactions By Month Of Year"
+msgstr ""
+
+#: app/views/reports/main.php:145
+msgid "Month Of Year"
+msgstr ""
+
+#: app/views/reports/month_table.php:11 app/views/reports/year_table.php:11
+msgid "Collected"
+msgstr ""
+
+#: app/views/reports/month_table.php:13 app/views/reports/year_table.php:13
+msgid "Total"
+msgstr ""
+
+#: app/views/reports/month_table.php:63 app/views/reports/year_table.php:64
+msgid "Totals"
+msgstr ""
+
+#: app/views/reports/month_table.php:76 app/views/reports/year_table.php:77
+#: app/views/shared/table-footer.php:2
+#: app/views/widgets/admin_stats_widget.php:52
+msgid "Export as CSV"
+msgstr ""
+
+#: app/views/rules/drip-form.php:7
+msgid "Enable Drip"
+msgstr ""
+
+#: app/views/rules/drip-form.php:9
+msgid "Drip this content"
+msgstr ""
+
+#: app/views/rules/drip-form.php:18
+msgid "Enable Expiration"
+msgstr ""
+
+#: app/views/rules/drip-form.php:20
+msgid "Expire this content"
+msgstr ""
+
+#: app/views/rules/form.php:11 app/views/rules/form.php:13
+#: app/views/rules/form.php:15
+msgid "Note:"
+msgstr ""
+
+#: app/views/rules/form.php:11
+msgid ""
+"%1$s isn't writable so <strong>Custom URIs</strong> won't be able to be "
+"locked until you add some %2$scustom rules%3$s to your .htaccess file. If "
+"you've already installed these rules then you can ignore this message. "
+"<strong>All other rules should work normally.</strong>"
+msgstr ""
+
+#: app/views/rules/form.php:13
+msgid ""
+"It appears that your website is running Nginx as it's webserver. In order "
+"for Custom URI rules to work you'll need to add some %1$scustom rules%2$s to "
+"your Nginx configuration. If you've already installed these rules then you "
+"can ignore this message. <strong>All other rules should work normally.</"
+"strong>"
+msgstr ""
+
+#: app/views/rules/form.php:15
+msgid ""
+"MemberPress doesn't recognize the webserver you're using and until you add "
+"additional %1$scustom rules%2$s to your webserver's configuration Custom URI "
+"rules won't work properly. If you've already installed these rules then you "
+"can ignore this message. <strong>All other rules should work normally.</"
+"strong>"
+msgstr ""
+
+#: app/views/rules/form.php:17
+msgid "Rule:"
+msgstr ""
+
+#: app/views/rules/form.php:20
+msgid "Give Access to Members who have purchased:"
+msgstr ""
+
+#: app/views/rules/form.php:25
+msgid "Partial Content Codes"
+msgstr ""
+
+#: app/views/rules/form.php:27
+msgid "Shortcode:"
+msgstr ""
+
+#: app/views/rules/form.php:27 app/views/rules/form.php:31
+msgid "Content to protect goes inbetween."
+msgstr ""
+
+#: app/views/rules/form.php:29
+msgid "PHP Snippet:"
+msgstr ""
+
+#: app/views/rules/form.php:40 app/views/rules/form.php:51
+msgid "Save Rule"
+msgstr ""
+
+#: app/views/rules/form.php:41 app/views/rules/form.php:52
+msgid "Rule Saved"
+msgstr ""
+
+#: app/views/rules/form.php:49
+msgid "You cannot create rules until you have added at least 1 Product."
+msgstr ""
+
+#: app/views/rules/unauth-meta-box.php:2
+msgid "Unauthorized access handling for content protected by this rule"
+msgstr ""
+
+#: app/views/rules/unauth-meta-box.php:3
+msgid ""
+"Note: This overrides the global settings for unauthorized access handling in "
+"MemberPress Options for content protected by this rule."
+msgstr ""
+
+#: app/views/shared/already_logged_in.php:10
+msgid "You're already logged in. %1$sLogout.%2$s"
+msgstr ""
+
+#: app/views/shared/errors.php:7
+msgid "ERROR"
+msgstr ""
+
+#: app/views/shared/logged_in_purchases.php:118
+#: app/views/shared/signup_form.php:133
+msgid "Coupon Code:"
+msgstr ""
+
+#: app/views/shared/logged_in_purchases.php:128
+#: app/views/shared/signup_form.php:143
+msgid "Payment Method:"
+msgstr ""
+
+#: app/views/shared/login_form.php:5
+msgid "Username or E-mail"
+msgstr ""
+
+#: app/views/shared/login_form.php:5
+msgid "Username"
+msgstr ""
+
+#: app/views/shared/login_form.php:7 app/views/users/reset_password.php:6
+msgid "Password"
+msgstr ""
+
+#: app/views/shared/login_form.php:9
+msgid "Remember Me"
+msgstr ""
+
+#: app/views/shared/login_form.php:12
+msgid "Log In"
+msgstr ""
+
+#: app/views/shared/login_form.php:20
+msgid "Register"
+msgstr ""
+
+#: app/views/shared/login_form.php:22
+msgid "Lost Password?"
+msgstr ""
+
+#: app/views/shared/member_unauthorized.php:4
+msgid ""
+"You're unauthorized to view this page. Check or renew your %1$s and try "
+"again."
+msgstr ""
+
+#: app/views/shared/member_unauthorized.php:4
+msgid "subscription(s)"
+msgstr ""
+
+#: app/views/shared/must_configure.php:3
+msgid ""
+"<b>MemberPress hasn't been configured yet.</b> Go to the MemberPress "
+"%1$soptions page%2$s to get it setup."
+msgstr ""
+
+#: app/views/shared/rules_meta_box.php:5
+msgid "Access Rules Protected by:"
+msgstr ""
+
+#: app/views/shared/rules_meta_box.php:6
+msgid "These rules protect the current content."
+msgstr ""
+
+#: app/views/shared/rules_meta_box.php:21
+msgid "Products with Access:"
+msgstr ""
+
+#: app/views/shared/rules_meta_box.php:22
+msgid ""
+"Members who are active on any of these products will be able to access this "
+"content. This list is calculated from the Rules that protect this content."
+msgstr ""
+
+#: app/views/shared/signup_form.php:119
+msgid "E-mail:"
+msgstr ""
+
+#: app/views/shared/signup_form.php:123
+msgid "Password:*"
+msgstr ""
+
+#: app/views/shared/signup_form.php:127
+msgid "Password Confirmation:*"
+msgstr ""
+
+#: app/views/shared/table-controls.php:7
+msgid "Search ..."
+msgstr ""
+
+#: app/views/shared/table-controls.php:9
+msgid "Display"
+msgstr ""
+
+#: app/views/shared/table-controls.php:16
+msgid "entries"
+msgstr ""
+
+#: app/views/shared/unauthorized.php:4
+msgid "You're unauthorized to view this page. Why don't you %s and try again."
+msgstr ""
+
+#: app/views/shared/unknown_error.php:3
+msgid "An Unknown Error Occurred"
+msgstr ""
+
+#: app/views/subscriptions/list.php:3 app/views/transactions/list.php:3
+msgid "for"
+msgstr ""
+
+#: app/views/subscriptions/row.php:48
+msgid "Show related transaction"
+msgstr ""
+
+#: app/views/subscriptions/row.php:57
+msgid "Manually add a transaction to this subscription"
+msgstr ""
+
+#: app/views/subscriptions/row.php:57
+msgid "Add Txn"
+msgstr ""
+
+#: app/views/subscriptions/row.php:58
+msgid "View related transactions"
+msgstr ""
+
+#: app/views/subscriptions/row.php:58
+msgid "View Txns"
+msgstr ""
+
+#: app/views/subscriptions/row.php:70
+msgid "Pause Subscription"
+msgstr ""
+
+#: app/views/subscriptions/row.php:73
+msgid "Resume Subscription"
+msgstr ""
+
+#: app/views/subscriptions/row.php:80
+msgid "Cancel Subscription"
+msgstr ""
+
+#: app/views/subscriptions/row.php:85
+msgid "Delete Subscription"
+msgstr ""
+
+#: app/views/subscriptions/row.php:85 app/views/transactions/row.php:75
+msgid "Delete"
+msgstr ""
+
+#: app/views/subscriptions/row.php:95
+msgid "Show related transactions"
+msgstr ""
+
+#: app/views/subscriptions/row.php:101 app/views/transactions/row.php:45
+msgid "View member's profile"
+msgstr ""
+
+#: app/views/subscriptions/row.php:101 app/views/subscriptions/row.php:111
+#: app/views/transactions/row.php:45 app/views/transactions/row.php:50
+msgid "Deleted"
+msgstr ""
+
+#: app/views/subscriptions/row.php:167
+msgid "Editing Subscription Status"
+msgstr ""
+
+#: app/views/subscriptions/row.php:168
+msgid ""
+"Modifying the Auto Rebill status here will change the status of the "
+"Subscription ONLY on your site, not at the Gateway itself. To cancel a "
+"Subscription, either you or the member must click on Cancel."
+msgstr ""
+
+#: app/views/subscriptions/row.php:174
+msgid "Cancelled"
+msgstr ""
+
+#: app/views/subscriptions/row.php:176 app/views/transactions/row.php:114
+msgid "Save"
+msgstr ""
+
+#: app/views/subscriptions/row.php:181
+msgid "Saving..."
+msgstr ""
+
+#: app/views/subscriptions/row.php:195 app/views/subscriptions/row.php:197
+#: app/views/transactions/row.php:125 app/views/transactions/row.php:127
+msgid "Empty"
+msgstr ""
+
+#: app/views/subscriptions/tabs.php:2
+msgid "Recurring (%d)"
+msgstr ""
+
+#: app/views/subscriptions/tabs.php:3
+msgid "Non-Recurring (%d)"
+msgstr ""
+
+#: app/views/transactions/edit_trans.php:5
+msgid "Edit Transaction"
+msgstr ""
+
+#: app/views/transactions/edit_trans.php:12
+msgid "Deleted Gateway"
+msgstr ""
+
+#: app/views/transactions/edit_trans.php:22
+msgid "Transaction ID:"
+msgstr ""
+
+#: app/views/transactions/list.php:7
+msgid "Add New"
+msgstr ""
+
+#: app/views/transactions/new_trans.php:5
+msgid "New Transaction"
+msgstr ""
+
+#: app/views/transactions/new_trans.php:17
+msgid "Create"
+msgstr ""
+
+#: app/views/transactions/row.php:61 app/views/transactions/row.php:63
+msgid "Edit transaction"
+msgstr ""
+
+#: app/views/transactions/row.php:64
+msgid "Send Receipt"
+msgstr ""
+
+#: app/views/transactions/row.php:70
+msgid "Refund Transaction"
+msgstr ""
+
+#: app/views/transactions/row.php:70
+msgid "Refund"
+msgstr ""
+
+#: app/views/transactions/row.php:75
+msgid "Delete Transaction"
+msgstr ""
+
+#: app/views/transactions/row.php:100
+msgid "Change transaction's status"
+msgstr ""
+
+#: app/views/transactions/row.php:105
+msgid "Editing Transaction Status"
+msgstr ""
+
+#: app/views/transactions/row.php:106
+msgid ""
+"Changing the status here will ONLY change the status on your site, not at "
+"the Gateway itself. To cancel a Transaction either you or the member should "
+"click the Cancel link next to the Subscription. You must use your Payment "
+"Gateway's web interface to refund a transaction."
+msgstr ""
+
+#: app/views/transactions/row.php:118
+msgid "Saving ..."
+msgstr ""
+
+#: app/views/transactions/trans_form.php:4
+msgid "Transaction Number*:"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:7
+msgid ""
+"A unique Invoice ID for this Transaction. Only edit this if you absolutely "
+"have to."
+msgstr ""
+
+#: app/views/transactions/trans_form.php:12
+msgid "User*:"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:17
+msgid "The user who made this transaction."
+msgstr ""
+
+#: app/views/transactions/trans_form.php:22
+msgid "Product*:"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:30
+msgid "The product that was purchased"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:35
+msgid "Amount*:"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:39
+msgid "The amount of this transaction"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:52
+msgid "The current status of the transaction"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:60
+msgid "The payment method associated with the transaction."
+msgstr ""
+
+#: app/views/transactions/trans_form.php:68
+msgid "The optional subscription to associate this transaction with."
+msgstr ""
+
+#: app/views/transactions/trans_form.php:73
+msgid "Created:"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:75
+msgid "Today"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:76
+msgid "The date that the transaction was created on."
+msgstr ""
+
+#: app/views/transactions/trans_form.php:81
+msgid "Expiration Date:"
+msgstr ""
+
+#: app/views/transactions/trans_form.php:84
+msgid ""
+"The date that the transaction will expire. This is used to determine how "
+"long the user will have access to the product until another transaction "
+"needs to be made."
+msgstr ""
+
+#: app/views/transactions/trans_form.php:85
+msgid "<b>Note:</b> Blank indicates a <b>lifetime</b> expiration."
+msgstr ""
+
+#: app/views/update/activation_warning.php:3
+msgid "Error with MEMBERPRESS_LICENSE_KEY: %s"
+msgstr ""
+
+#: app/views/update/activation_warning.php:5
+msgid ""
+"<b>MemberPress hasn't been activated yet.</b> Go to the MemberPress "
+"%1$sactivation page%2$s to activate it."
+msgstr ""
+
+#: app/views/update/edge_updates.php:3
+msgid ""
+"Include MemberPress edge (development) releases in automatic updates (not "
+"recommended for production websites)"
+msgstr ""
+
+#: app/views/update/ui.php:8
+msgid ""
+"You must have a License Key to enable automatic updates for MemberPress. If "
+"you don't have a License please go to %1$s to get one. If you do have a "
+"license you can login at %2$s to manage your licenses and site activations."
+msgstr ""
+
+#: app/views/update/ui.php:14
+msgid "Enter Your MemberPress License Key:"
+msgstr ""
+
+#: app/views/update/ui.php:21
+msgid "Activate License Key on %s"
+msgstr ""
+
+#: app/views/update/ui.php:26
+msgid "Active License Key Information:"
+msgstr ""
+
+#: app/views/update/ui.php:29
+msgid "License Key:"
+msgstr ""
+
+#: app/views/update/ui.php:34
+msgid "<b>Active on %s</b>"
+msgstr ""
+
+#: app/views/update/ui.php:41
+msgid "Activations:"
+msgstr ""
+
+#: app/views/update/ui.php:45
+msgid ""
+"Are you sure? Automatic updates of MemberPress will not be available on %s "
+"if this License Key is deactivated."
+msgstr ""
+
+#: app/views/update/ui.php:45
+msgid "Deactivate License Key on %s"
+msgstr ""
+
+#: app/views/users/extra_profile_fields.php:3
+msgid "Membership Information"
+msgstr ""
+
+#: app/views/users/extra_profile_fields.php:17
+msgid "(required)"
+msgstr ""
+
+#: app/views/users/extra_profile_fields.php:76
+msgid "View Member's Transactions"
+msgstr ""
+
+#: app/views/users/extra_profile_fields.php:81
+msgid "View Member's Subscriptions"
+msgstr ""
+
+#: app/views/users/extra_profile_fields.php:86
+msgid "Resend MemberPress Welcome Email"
+msgstr ""
+
+#: app/views/users/extra_profile_fields.php:91
+msgid "Custom MemberPress Account Message"
+msgstr ""
+
+#: app/views/users/forgot_password.php:3
+msgid "Request a Password Reset"
+msgstr ""
+
+#: app/views/users/forgot_password.php:6
+msgid "Enter Your Username or Email Address"
+msgstr ""
+
+#: app/views/users/forgot_password.php:10
+msgid "Request Password Reset"
+msgstr ""
+
+#: app/views/users/forgot_password_requested.php:3
+msgid "Successfully requested password reset"
+msgstr ""
+
+#: app/views/users/forgot_password_requested.php:4
+msgid ""
+"Please click on the confirmation link that was just sent to your email "
+"address."
+msgstr ""
+
+#: app/views/users/login_page_meta_box.php:5
+msgid "Manually place the login form on the page"
+msgstr ""
+
+#: app/views/users/login_page_meta_box.php:8
+msgid "Manually place Login form"
+msgstr ""
+
+#: app/views/users/login_page_meta_box.php:9
+msgid ""
+"By default MemberPress will append the login form to the end of the Login "
+"page. If you would like to show it in a different place on the Login page "
+"check this box then copy and paste the shortcode that appears below where "
+"you want it to appear on the page. The [mepr-login-form] shortcode can be "
+"used on any page or post on your site to display a login form."
+msgstr ""
+
+#: app/views/users/reset_password.php:3
+msgid "Enter your new password"
+msgstr ""
+
+#: app/views/users/reset_password.php:10
+msgid "Password Confirmation"
+msgstr ""
+
+#: app/views/users/reset_password.php:14
+msgid "Reset Password"
+msgstr ""
+
+#: app/views/users/reset_password_thankyou.php:3
+msgid "Password successfully reset"
+msgstr ""
+
+#: app/views/users/reset_password_thankyou.php:4
+msgid "Your new password has been emailed to you."
+msgstr ""
+
+#: app/views/widgets/admin_stats_widget.php:7
+msgid "Your 7-Day membership activity:"
+msgstr ""
+
+#: app/views/widgets/admin_stats_widget.php:56
+msgid "View More MemberPress Reports"
+msgstr ""
+
+#: script/i18n/pomo/sample/app.php:56
+msgid "Welcome %s!"
+msgstr ""
+
+#: script/i18n/pomo/sample/app.php:60
+msgid "A string with low priority!"
+msgstr ""
+
+#: script/i18n/pomo/sample/app.php:62
+msgid "Bye\n"
+msgstr ""
+
+#: test/tests/MeprRulesTest.php:134
+msgid "Posts Categorized As"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.memberpress.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The membership plugin that makes it easy to accept payments for access to "
+"your content and digital products."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Caseproof, LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://caseproof.com/"
+msgstr ""

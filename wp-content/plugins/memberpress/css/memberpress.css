@@ -1,0 +1,119 @@
+/* Front-end ONLY CSS */
+
+.mepr-form-input {
+  width:60%;
+}
+
+.mepr_signup_table input, .mepr_loginform input {
+  width:250px;
+}
+
+.mepr_signup_table tr td {
+  padding:2px;
+}
+
+/* Account page */
+div#mepr-account-nav {
+  margin-bottom:25px;
+}
+
+table#mepr-account-table {
+  width:100%;
+}
+
+table#mepr-account-table,
+table#mepr-account-table tr,
+table#mepr-account-table td {
+  background:none;
+  border:none;
+}
+
+table#mepr-account-subscriptions-table,
+table#mepr-account-payments-table {
+  width:100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+table#mepr-account-subscriptions-table th,
+table#mepr-account-payments-table th {
+  text-align: left;
+}
+
+tr.mepr-subscription-row td,
+tr.mepr-payment-row td {
+  padding: 5px;
+  border-top:1px solid #dedede;
+  border-bottom:1px solid #dedede;
+}
+
+tr.mepr-subscription-row td:first-child,
+tr.mepr-payment-row td:first-child {
+  border-left:1px solid #dedede;
+}
+
+tr.mepr-subscription-row td:last-child,
+tr.mepr-payment-row td:last-child {
+  border-right:1px solid #dedede;
+}
+
+/*
+table#mepr-account-payments-table,
+table#mepr-account-payments-table tr,
+table#mepr-account-payments-table td {
+  background:none;
+  border:none;
+}
+*/
+
+tr.mepr-alt-row {
+  background:#dedede;
+}
+
+.mepr-nav-item {
+  padding: 0 10px 0 0;
+}
+
+.mepr-active-nav-tab {
+  font-weight: bold;
+}
+
+#mepr_no_val {
+  display:none !important;
+  margin: 0;
+  padding: 0;
+}
+
+.mepr-active, .mepr-inactive {
+  font-weight: bold;
+}
+
+.mepr-active {
+  color: limegreen;
+}
+
+.mepr-inactive {
+  color: darkred;
+}
+
+.mepr-account-terms, .mepr-account-subscr-id, .mepr-account-rebill {
+  font-size: 75%;
+  font-weight: bold;
+  font-style: italic;
+  color: #464646;
+}
+
+#mepr-subscriptions-tabs {
+  margin-bottom: 15px;
+}
+
+.error {
+  padding: 5px 5px 0 5px;
+  margin-bottom: 15px;
+  background-color: #ffebe8;
+}
+
+.error ul {
+  list-style-type: none;
+}
+

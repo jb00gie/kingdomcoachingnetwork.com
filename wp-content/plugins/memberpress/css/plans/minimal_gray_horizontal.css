@@ -1,0 +1,21 @@
+/* CSS for plans here */
+@import url('../plan_templates/minimal_horizontal.css');
+.mepr-price-box {
+  background-color: #dedede;
+}
+
+.mepr-price-box.highlighted {
+  background-color: #f1f1f1;
+}
+
+.mepr-price-box-benefits .mepr-price-box-benefits-list .mepr-price-box-benefits-item {
+  border-bottom: 1px dotted #888888;
+}
+
+.mepr-price-box-button a {
+  background-color: #f4f4f4;
+}
+
+.mepr-price-box-button a:hover {
+  background-color: white;
+}

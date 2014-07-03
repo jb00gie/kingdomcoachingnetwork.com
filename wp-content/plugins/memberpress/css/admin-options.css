@@ -1,0 +1,212 @@
+.mepr-hidden {
+  display: none;
+}
+
+.icon32 {
+  float: right;
+  display: inline-block;
+  background:url('../images/memberpress-32.png') !important;
+  width: 267px !important;
+  height: 32px !important;
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 1.5) {
+  .icon32 {
+    background-image: url('../images/memberpress-32@2x.png') !important;
+    background-size: 267px 32px !important;
+  }
+}
+
+div#pages {
+  display:block;
+}
+
+/*
+a.nav-tab {
+  font-size:13px;
+  font-weight:bold;
+  margin-right:0;
+  padding:4px 8px 6px;
+}
+
+h2.nav-tab-wrapper {
+  padding-left:6px;
+}
+
+h2 .nav-tab {
+  color:#21759B;
+}
+
+h2 .nav-tab:hover {
+  color:#D54E21;
+}
+
+h2 .nav-tab-active {
+  text-shadow:1px 1px 1px white;
+  font-weight:bold;
+  color:#464646;
+}
+
+#mepr_options_form h2 .nav-tab {
+  padding:4px 10px 6px;
+  margin:0 -2px -1px 0;
+  font-size:18px;
+  vertical-align:top;
+}
+*/
+
+hr {
+  border:none;
+  background-color:#CCC;
+  height:1px;
+  margin-top:12px;
+  margin-bottom:13px;
+}
+
+.submit {
+  margin:10px 0 5px 0;
+  padding:0;
+}
+
+.mepr-options-hidden-pane {
+  display:none;
+  margin-top:0;
+  padding-top:0;
+}
+
+textarea#mepr-custom-message {
+  width: 500px;
+  height: 100px;
+}
+
+#i18n .mepr-field-label {
+  display: inline-block;
+  width: 100px;
+}
+
+#mepr-integration-table,
+#mepr-integration-table tr,
+#mepr-integration-table tr td {
+  vertical-align: top;
+}
+
+#mepr-integration-table {
+  margin-top: -25px;
+}
+
+.mepr-integration-setup-form {
+  max-width: 300px;
+}
+
+.mepr-integration-delete {
+  float: right;
+  margin-top: -10px;
+}
+
+.mepr-integration {
+  margin: 0 0 5px 0;
+  padding: 15px;
+  border: 1px solid #999999;
+  line-height: 30px;
+  background-color: white;
+}
+
+ul.custom_options_list {
+  margin:18px;
+  padding:15px;
+  background-color: transparent;
+  border: 1px solid #DFDFDF;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+}
+
+.mepr-custom-field {
+  padding: 15px;
+  margin-bottom: 5px !important;
+}
+
+.mepr-custom-field input[type=text],
+.mepr-custom-field select {
+  margin-right: 15px !important;
+}
+
+.mepr-custom-field a.mepr-custom-field-remove,
+.mepr-custom-field a.mepr-option-remove {
+  float: right;
+}
+
+.clippy_input {
+  background: #015289 !important;
+  color: white !important;
+}
+
+/* MailChimp Stuff */
+/*
+div#mailchimp_hidden_area {
+  padding: 15px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+}
+*/
+
+/* GetResponse Stuff */
+/*
+div#getresponse_hidden_area {
+  padding: 15px;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+}
+*/
+
+/* Autoresponder Stuff */
+#mepr-mailchimp,
+#mepr-adv-aweber,
+#mepr-getrepsonse {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*
+#aweber_hidden_area,
+#mepr-adv-aweber-hidden-area {
+  padding:0 15px;
+  border:1px solid #CCC;
+  border-radius: 3px;
+}
+
+#mepr-adv-aweber-hidden-area {
+  padding: 15px;
+}
+*/
+
+#mepr-aweber-error,
+#mepr-aweber-message {
+  margin-bottom: 15px;
+}
+
+#mepr-aweber-api-code {
+  width: 500px;
+  height: 50px;
+}
+
+.mepr-payment-description {
+  width: 35em;
+}
+
+.mepr-integration-payment-method-id {
+  font-weight: bold;
+}
+
+#mepr-integration-separator-cell {
+  padding-left: 15px;
+}
+
+.mepr-options-panel {
+  padding-left: 10px;
+}
+
+.mepr-options-table tr td {
+  vertical-align: top;
+  width: 415px;
+}
+

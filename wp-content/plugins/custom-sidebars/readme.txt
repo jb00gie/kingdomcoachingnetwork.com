@@ -7,10 +7,10 @@ Tested up to: 3.8.2
 Stable tag: trunk
 
 Allows to create your own widgetized areas and custom sidebars, and select what sidebars to use for each post or page.
- 
+
 == Description ==
 
-Sometimes it is necessary to show different elements on the sidebars for some posts or pages. The themes nowadays give you some areas to put the widgets, but those areas are common for all the posts that are using the same template. NOTE: **You need to use a theme that accepts widgets to make this plugin work.** 
+Sometimes it is necessary to show different elements on the sidebars for some posts or pages. The themes nowadays give you some areas to put the widgets, but those areas are common for all the posts that are using the same template. NOTE: **You need to use a theme that accepts widgets to make this plugin work.**
 
 Custom Sidebars allows you to create all the widgetized areas you need, your own custom sidebars, configure them adding widgets, and replace the default sidebars on the posts or pages you want in just few clicks.
 
@@ -36,7 +36,7 @@ Translations are welcome! We will write your name down here if you donate your t
 *	Spanish - Javi Marquez (http://arqex.com)
 *	German - [Markus Vocke, Professionelles Webdesign](http://www.web-funk.de)
 *	Dutch - Herman Boswijk
-*	Italian - [David Pesarin](http://davidpesarin.wordpress.com) 
+*	Italian - [David Pesarin](http://davidpesarin.wordpress.com)
 *	French - [Aldabra](http://www.unamourdeuxgeeks.com)
 *	Hebrew - [Dvir](http://foxy.co.il/blog/)
 
@@ -101,13 +101,18 @@ If you are running a earlier version of Wordpress download Custom Sidebars 0.8.2
 
 == Screenshots ==
 
-1. screenshot-1.png The plugin options page. Placed in the appearance menu, you can create, edit or delete sidebars there, set the replaceable sidebars and reset the sidebars data. 
+1. screenshot-1.png The plugin options page. Placed in the appearance menu, you can create, edit or delete sidebars there, set the replaceable sidebars and reset the sidebars data.
 2. screenshot-2.png The new sidebars created by the plugin, can be customized in the Widgets menu.
 3. screenshot-3.png A new box is added to the post and page edit forms, where you can set your custom sidebars up.
 4. screenshot-4.png Default sidebars page, here you will be able to assign sidebars to all the post that belongs to a category or a post-type. Also author, tags and main blog pages sidebars can be defined here.
 5. screenshot-5.png The sidebar sb1 has replace the sidebar footer 1 in the front-end.
 
 == Changelog ==
+
+= 1.6 =
+*		Added: WordPress filter "cs_sidebar_params" is called before a custom sidebar is registered.
+*		Added: Add setting "CUSTOM_SIDEBAR_DISABLE_METABOXES" in wp-config.php to remove custom-sidebar meta boxes.
+
 = 1.5 =
 *		Added: Custom sidebars now works with buddypress pages.
 
@@ -116,14 +121,14 @@ If you are running a earlier version of Wordpress download Custom Sidebars 0.8.2
 *		Fixed: Category sidebars sorting
 *		Added: WP 3.8 new admin design (MP6) support
 
-= 1.3.1 = 
+= 1.3.1 =
 *		Fixed: Absolute paths that leaded to the outdated browser error
 *		Fixed: Stripped slashes for the pre/post widget/title fields
 
 = 1.3 =
 *		Fixed: A lot of warnings with the PHP debug mode on
 *		Improved: Styles to make them compatible with WP 3.6
-*		Fixed: Creation of sidebars from the custom sidebars option 
+*		Fixed: Creation of sidebars from the custom sidebars option
 *		Fixed: Missing loading icons in the admin area
 *		Removed: Donate banner. Thanks to the ones that have be supporting Custom Sidebar so far.
 
@@ -140,7 +145,7 @@ If you are running a earlier version of Wordpress download Custom Sidebars 0.8.2
 *       Added: Default sidebar for date archives
 *	Added: Default sidebar for Uncategorized posts
 
-= 1.0 = 
+= 1.0 =
 *       Fixed: Special characters make sidebars undeletable
 *       Added: Child/parent pages support
 *       Improved interface to handle hundreds of sidebars easily
@@ -163,7 +168,7 @@ If you are running a earlier version of Wordpress download Custom Sidebars 0.8.2
 
 = 0.7.1 =
 * 	Fixed: Now the plugin works with themes like Thesis that don't use the the_header hook. Changed the hook where execute the replacement code to wp_head.
-*	Fixed: When a second sidebar is replaced with the originally first sidebar, it is replaced by the first sidebar replacement instead. 
+*	Fixed: When a second sidebar is replaced with the originally first sidebar, it is replaced by the first sidebar replacement instead.
 
 = 0.7 =
 *	Fixed: Bulk and Quick editing posts and pages reset their custom sidebars.

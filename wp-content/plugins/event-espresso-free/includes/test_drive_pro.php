@@ -136,7 +136,6 @@ type="hidden" name="gform_field_values" value="" />
           </ul>
 		  
 		  <?php require_once(EVENT_ESPRESSO_PLUGINFULLPATH.'includes/pricing_table.php');?>
-		  <p>&nbsp;</p>
         </div>
         <!-- / .meta-box-sortables --> 
       </div>

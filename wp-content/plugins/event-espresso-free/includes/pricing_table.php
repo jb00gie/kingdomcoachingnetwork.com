@@ -1,12 +1,19 @@
 <?php $version = espresso_version();?>
-<style> 
+<div class="metabox-holder">
+        <div class="postbox">
+<h3>Premium Features</h3>
+          <div class="inside">
+          <div class="padding">
+            <h2 style="color:#F00; text-align:center;">The following features are included in the <a href="http://eventespresso.com/?utm_source=ee_plugin_admin&utm_medium=link&utm_content=Event+Espresso<?php echo '+ee_version_'.EVENT_ESPRESSO_VERSION; ?>&utm_campaign=pricing_table">Event Espresso</a> support licenses. </h2>
+        
+ <style> 
    
   
         
     #pricing-table {
         margin: 20px auto 20px auto;
         text-align: center;
-        width: 740px; /* total computed width = 222 x 3 + 226 */
+        width: 892px; /* total computed width = 222 x 3 + 226 */
     }
 
     #pricing-table .plan {
@@ -180,19 +187,11 @@
       zoom:1
     }    
     </style>
-<div class="metabox-holder">
-        <div class="postbox" style="height:1550px">
-<h3>Premium Features</h3>
-          <div class="inside">
-          <div class="padding">
-            <h2 style="color:#F00;">The following features are included in the <a href="http://eventespresso.com/?utm_source=ee_plugin_admin&utm_medium=link&utm_content=Event+Espresso<?php echo '+ee_version_'.EVENT_ESPRESSO_VERSION; ?>&utm_campaign=pricing_table">Event Espresso</a> support licenses. </h2>
-        
- 
 
 <div style="clear: both;"></div>
 
 <div id="pricing-table" class="pclear" style="float:left">
-     <div class="plan">
+     <div class="plan"  >
    
         <h3>Developer<span>$499.95</span></h3>
         <a class="signup" href="http://eventespresso.com/product/developer-license/?utm_source=ee_plugin_admin&utm_medium=link&utm_content=Developer+Buy+Now<?php echo '+ee_version_'.EVENT_ESPRESSO_VERSION; ?>&utm_campaign=pricing_table">Buy Now</a>         

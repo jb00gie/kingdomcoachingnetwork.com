@@ -3,7 +3,7 @@
 Plugin Name: Custom sidebars
 Plugin URI: http://wordpress.org/plugins/custom-sidebars/
 Description: Allows to create your own widgetized areas and custom sidebars, and select what sidebars to use for each post or page.
-Version: 1.5
+Version: 1.6
 Author: WPMUDEV
 Author URI: http://premium.wpmudev.org/
 License: GPL2
@@ -78,7 +78,17 @@ class CustomSidebars{
 		$sb = $this->getCustomSidebars();
 		if(!empty($sb)){
 			foreach($sb as $sidebar){
-				register_sidebar($sidebar);
+				/**
+				 * Filter sidebar options for custom sidebars.
+				 *
+				 * @since  1.6
+				 *
+				 * @param  array $sidebar Options used by WordPress to display
+				 *           the sidebar.
+				 */
+				$sidebar = apply_filters( 'cs_sidebar_params', $sidebar );
+
+				register_sidebar( $sidebar );
 			}
 		}
 	}
@@ -291,7 +301,9 @@ class CustomSidebars{
 	 */
 	function storeOriginalPostId(){
 		global $post;
-		$this->originalPostId = $post->ID;
+		if(isset($post->ID)) {
+			$this->originalPostId = $post->ID;
+		}
 	}
 
 	function checkAndFixSidebar($sidebar, $replacement, $method, $extra_index){
@@ -458,6 +470,22 @@ class CustomSidebars{
 
 	function addMetaBox(){
 		global $post;
+
+		/**
+		 * Option that can be set in wp-config.php to remove the custom sidebar
+		 * meta box for certain post types.
+		 *
+		 * @since  1.6
+		 *
+		 * @option bool TRUE will hide all meta boxes.
+		 */
+		if (
+			defined( 'CUSTOM_SIDEBAR_DISABLE_METABOXES' ) &&
+			CUSTOM_SIDEBAR_DISABLE_METABOXES == true
+		) {
+			return false;
+		}
+
 		$post_type = get_post_type($post);
 		if($post_type && !(array_search($post_type, $this->ignore_post_types))){
 			$post_type_object = get_post_type_object($post_type);

@@ -53,12 +53,19 @@ class SOContactBar extends PageLinesSection {
 				</div>
 				<div class="span6 cb-icons">
 					<div class="social-holder">
-						<ul class="cb-menu">
+						<ul class="cb-menu" style="right: 80px;">
 							<?php foreach ($socials as $social): ?>
 								<li class="<?php echo $social['site'] ?>">
 									<a href="<?php echo $social['url'] ?>" title="<?php echo ucfirst($social['site']) ?>" target="_blank"></a>
 								</li>
 							<?php endforeach ?>
+						</ul>
+						<ul class="login-logout pull-right" style="margin-top: 6px;">
+							<?php if(is_user_logged_in()): ?>
+							<li><a href="<?php echo wp_logout_url( '/account' ); ?> " class="btn btn-info">Log Out</a></li>
+						<?php else: ?>
+						<li><a href="/account" class="btn btn-info">Login</a></li>
+										<?php endif; ?>
 						</ul>
 						<div class="clear"></div>
 					</div>

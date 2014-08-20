@@ -8,3 +8,11 @@ Template:       dms
 Version:        1.1.2
 PageLines:      true
 */
+
+ul.event-categories {
+	list-style: none;
+}
+
+.css-events-list h1 a {
+	color: #0093FF;
+}

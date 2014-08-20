@@ -1,0 +1,34 @@
+*** Royal Mail ***
+
+2014.04.02 - version 2.1.1
+* Fix calculation in special delivery methods
+
+2014.03.27 - version 2.1.0
+* March 31st 2014 Rate update
+* New international services; you will need to reconfigure your Royal Mail rates after updating!
+* Updated textdomains
+* Code standards update
+
+2014.01.22 - version 2.0.6
+* Fix international rates when using custom box sizes
+
+2013.11.28 - version 2.0.5
+* 2.1 compatibility
+
+2013.11.28 - version 2.0.4
+* Ensure rate class is only loaded once
+
+2013.02.01 - version 2.0.3
+* Small parcel wide/deep
+
+2013.02.01 - version 2.0.2
+* Typos in rate names
+* Fixed notices on save
+
+2013.02.01 - version 2.0.1
+* Incorrect price band for SD 9am
+* Incorrect max price band for SD Next day
+* Corrected text to state 2013 price guide instead of 2012.
+
+2013.02.01 - version 2.0.0
+* First Release
